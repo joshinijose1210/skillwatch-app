@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectFeedbackTag component should take snapshot 1`] = `
+<div>
+  <div
+    class="sc-ayn6ri-0 boWEAe"
+  >
+    <div
+      class="sc-1hcsztp-0 fjPkSb sc-tkiih6-13 cecHDR"
+      id="feedback type-wrapper"
+      minwidth="100%"
+      variant="outlined"
+    >
+      <div
+        class="sc-17d4s39-0 khebHA"
+        id="feedback type-input-wrapper"
+        minwidth="100%"
+      >
+        <div
+          class="sc-19px6zp-0 BrSGZ"
+          filled="[object Object]"
+          fusion="[object Object]"
+          minrows="1"
+          outlined="[object Object]"
+          textvariant="[object Object]"
+          variant="outlined"
+        >
+          <div
+            class="sc-lhr232-0 btNOKw"
+            variant="outlined"
+          >
+            <input
+              aria-describedby="feedback type-helper-text"
+              autocomplete="off"
+              class="sc-hb99wz-0 jaEbhp"
+              data-tooltip-id="feedback type-input"
+              errortext=""
+              id="feedback type-input"
+              inputmode="none"
+              inputsize="M"
+              placeholder="Select Feedback Type"
+              type="text"
+              value=""
+              variant="outlined"
+            />
+            <label
+              class="sc-1du51u0-0 eMZrST"
+              for="feedback type-input"
+              inputwidth="0"
+              variant="outlined"
+            >
+              Feedback Type
+            </label>
+          </div>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE sc-dynlvq-0 bdmviR"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.792 14.97a1 1 0 0 1-1.584 0l-3.165-4.11a1 1 0 0 1 .793-1.61h6.328a1 1 0 0 1 .793 1.61l-3.165 4.11z"
+              fill="#000"
+            />
+          </svg>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+`;

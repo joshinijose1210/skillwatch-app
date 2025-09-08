@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table section should render as expected 1`] = `
+<div>
+  <div
+    class="sc-1fchxsp-6 dqYAvH"
+  >
+    <div
+      class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+    >
+      <button
+        aria-expanded="true"
+        class="sc-1ouxg1r-0 hwLnLP sc-1fchxsp-12 HZcpt"
+      >
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+        >
+          Average Rating
+        </h4>
+        <svg
+          class="sc-1pf3x8a-0 klDMsE"
+          fill="none"
+          height="1em"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+            fill="#000"
+            fill-opacity=".54"
+          />
+        </svg>
+      </button>
+      <div
+        class="sc-aqez41-0 ljhHPp sc-1fchxsp-13 fWXnRP"
+        role="region"
+      >
+        <div
+          class="sc-72u0du-1 cnjwts"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl row align-center marginBottom-1"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl column md-5"
+            >
+              <span
+                class="sc-1ntgl3l-0 gPMgWC"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="body2"
+                textweight="Medium"
+              >
+                Self Review:
+              </span>
+            </div>
+            <div
+              class="sc-h70dbj-0 fQmYvl column"
+            >
+              <div
+                class="sc-1yzztbi-0 sc-1yzztbi-1 hmfzBC jdubJU"
+              >
+                <button
+                  class="sc-1qiq5dc-0 cEdgdr sc-1yzztbi-2 gcoBEt"
+                  variant="solid"
+                >
+                  <span
+                    class="sc-1ntgl3l-0 hGagSU"
+                    textalign="initial"
+                    textcolor="inherit"
+                  >
+                    0
+                  </span>
+                </button>
+                <span
+                  class="sc-1ntgl3l-0 gPMgWC sc-1yzztbi-3 iLVinv"
+                  textalign="initial"
+                  textcolor="inherit"
+                  textvariant="body2"
+                  textweight="Medium"
+                >
+                  Not yet given.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl row align-center marginBottom-1"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl column md-5"
+            >
+              <span
+                class="sc-1ntgl3l-0 gPMgWC"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="body2"
+                textweight="Medium"
+              >
+                Manager 1 Review:
+              </span>
+            </div>
+            <div
+              class="sc-h70dbj-0 fQmYvl column"
+            >
+              <div
+                class="sc-1yzztbi-0 sc-1yzztbi-1 hmfzBC jdubJU"
+              >
+                <button
+                  class="sc-1qiq5dc-0 cEdgdr sc-1yzztbi-2 gcoBEt"
+                  variant="solid"
+                >
+                  <span
+                    class="sc-1ntgl3l-0 hGagSU"
+                    textalign="initial"
+                    textcolor="inherit"
+                  >
+                    0
+                  </span>
+                </button>
+                <span
+                  class="sc-1ntgl3l-0 gPMgWC sc-1yzztbi-3 iLVinv"
+                  textalign="initial"
+                  textcolor="inherit"
+                  textvariant="body2"
+                  textweight="Medium"
+                >
+                  Not yet given.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl row align-center marginBottom-1"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl column md-5"
+            >
+              <span
+                class="sc-1ntgl3l-0 gPMgWC"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="body2"
+                textweight="Medium"
+              >
+                Manager 2 Review:
+              </span>
+            </div>
+            <div
+              class="sc-h70dbj-0 fQmYvl column"
+            >
+              <div
+                class="sc-1yzztbi-0 sc-1yzztbi-1 hmfzBC jdubJU"
+              >
+                <button
+                  class="sc-1qiq5dc-0 cEdgdr sc-1yzztbi-2 gcoBEt"
+                  variant="solid"
+                >
+                  <span
+                    class="sc-1ntgl3l-0 hGagSU"
+                    textalign="initial"
+                    textcolor="inherit"
+                  >
+                    0
+                  </span>
+                </button>
+                <span
+                  class="sc-1ntgl3l-0 gPMgWC sc-1yzztbi-3 iLVinv"
+                  textalign="initial"
+                  textcolor="inherit"
+                  textvariant="body2"
+                  textweight="Medium"
+                >
+                  Not yet given.
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl row align-center marginBottom-1"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl column md-5"
+            >
+              <span
+                class="sc-1ntgl3l-0 gPMgWC"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="body2"
+                textweight="Medium"
+              >
+                Check-in with Manager Review:
+              </span>
+            </div>
+            <div
+              class="sc-h70dbj-0 fQmYvl column"
+            >
+              <div
+                class="sc-1yzztbi-0 sc-1yzztbi-1 hmfzBC jdubJU"
+              >
+                <button
+                  class="sc-1qiq5dc-0 cEdgdr sc-1yzztbi-2 gcoBEt"
+                  variant="solid"
+                >
+                  <span
+                    class="sc-1ntgl3l-0 hGagSU"
+                    textalign="initial"
+                    textcolor="inherit"
+                  >
+                    0
+                  </span>
+                </button>
+                <span
+                  class="sc-1ntgl3l-0 gPMgWC sc-1yzztbi-3 iLVinv"
+                  textalign="initial"
+                  textcolor="inherit"
+                  textvariant="body2"
+                  textweight="Medium"
+                >
+                  Not yet given.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

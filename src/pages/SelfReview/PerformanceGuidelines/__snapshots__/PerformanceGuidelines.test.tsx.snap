@@ -1,0 +1,1552 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Performance guidelines for Self Review should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Performance Guidelines
+        </h3>
+      </div>
+      <button
+        class="sc-1k2druj-0 eLgfbc sc-w8e7z6-1"
+        edges="square"
+        type="button"
+        variant="solid"
+      >
+        <span
+          class="sc-1ntgl3l-0 eOsHHD"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="button1"
+        >
+          Loading
+        </span>
+      </button>
+    </div>
+    <h4
+      class="sc-1ntgl3l-0 jPeJxZ"
+      textalign="initial"
+      textcolor="inherit"
+      textvariant="h4"
+      textweight="Medium"
+    >
+      Weightage
+    </h4>
+    <div
+      bg="white"
+      borderradius="2"
+      class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-0 ZkjjS"
+      color="black"
+      display="flex"
+      font-variant="body2"
+      px="4"
+      py="4"
+    >
+      <div
+        bg="white"
+        borderradius="2"
+        class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-1 cLJquV"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <div
+          bg="white"
+          borderradius="2"
+          class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-3 INSTc"
+          color="black"
+          display="flex"
+          font-variant="body2"
+          px="4"
+          py="4"
+        >
+          <div
+            class="sc-1exx2co-0 sc-19mf7i9-2 dufstT cwGMGQ"
+          >
+            <h3
+              class="sc-1ntgl3l-0 lhJlYH"
+              style="font-size: 30px;"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h3"
+              textweight="Strong"
+            >
+              50
+              %
+            </h3>
+            <h4
+              class="sc-1ntgl3l-0 fgmHgf"
+              style="font-size: 14px;"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Skills & Knowledge Growth
+            </h4>
+          </div>
+        </div>
+        <div
+          bg="white"
+          borderradius="2"
+          class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-4 kaELTU"
+          color="black"
+          display="flex"
+          font-variant="body2"
+          px="4"
+          py="4"
+        >
+          <div
+            class="sc-19mf7i9-11 kQizvx"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Performance Metrics Preview
+            </h4>
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Value
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        bg="white"
+        borderradius="2"
+        class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-6 dSUPUp"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <div
+          class="sc-murh6i-7 fggvmg"
+        >
+          <h3
+            class="sc-1ntgl3l-0 lhJlYH sc-tkiih6-22 isRtxH"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h3"
+            textweight="Strong"
+          >
+            Tips
+          </h3>
+          <div
+            class="sc-19mf7i9-5 hFFNMe"
+          />
+        </div>
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Strong"
+        >
+          How is your performance calculated?
+        </h4>
+        <h4
+          class="sc-1ntgl3l-0 fgmHgf"
+          style="font-size: 14px;"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Regular"
+        >
+          Your performance is evaluated based on the given Key Performance Indicators (KPIs). Here’s how the calculation works:
+        </h4>
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Strong"
+        >
+          Step 1: Assign KPI Scores
+          <br />
+          <p
+            class="list-text"
+          >
+            Let's assume the KPI scores for each Key Result Area (KRA) are as follows:
+          </p>
+        </h4>
+        <ul
+          class="sc-1xeus4s-1 hIctrP score-list"
+        >
+          <li
+            class="sc-1xeus4s-2 jIFqE"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Knowledge & Skill Growth:
+            </h4>
+          </li>
+          <ul
+            class="sc-1xeus4s-1 hIctrP"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                1st KPI Score: 3
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                2nd KPI Score: 2
+              </h4>
+            </li>
+          </ul>
+        </ul>
+        <ul
+          class="sc-1xeus4s-1 hIctrP score-list"
+        >
+          <li
+            class="sc-1xeus4s-2 jIFqE"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Results:
+            </h4>
+          </li>
+          <ul
+            class="sc-1xeus4s-1 hIctrP"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                1st KPI Score: 3
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                2nd KPI Score: 2
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                3rd KPI Score: 3
+              </h4>
+            </li>
+          </ul>
+        </ul>
+        <ul
+          class="sc-1xeus4s-1 hIctrP score-list"
+        >
+          <li
+            class="sc-1xeus4s-2 jIFqE"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Attitude Fitment:
+            </h4>
+          </li>
+          <ul
+            class="sc-1xeus4s-1 hIctrP"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                1st KPI Score: 3
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                2nd KPI Score: 3
+              </h4>
+            </li>
+          </ul>
+        </ul>
+        <div
+          class="sc-19mf7i9-7"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Strong"
+          >
+            Step 2: Calculate KRA Averages: 
+            <br />
+            <p>
+              The average score for each KRA is calculated as follows:
+            </p>
+          </h4>
+          <ul
+            class="sc-1xeus4s-1 hIctrP tips-steps"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Knowledge & Skill Growth:
+                 
+                <span>
+                  (3 + 2) ÷ 2 =
+                   
+                </span>
+                2.5
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Results:
+                 
+                <span>
+                  (3 + 2 + 3) ÷ 3 =
+                   
+                </span>
+                2.67
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Attitude Fitment:
+                 
+                <span>
+                  (3 + 3) ÷ 2 =
+                   
+                </span>
+                3.0
+              </h4>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-19mf7i9-7"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Strong"
+          >
+            Step 3: Apply Weighted Scores: 
+            <br />
+            <p>
+              Each KRA average is multiplied by its assigned weight:
+            </p>
+          </h4>
+          <ul
+            class="sc-1xeus4s-1 hIctrP tips-steps"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Knowledge & Skill Growth (30%) →
+                 
+                <span>
+                  2.5 × 0.30 =
+                   
+                </span>
+                0.75
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Results (60%) →
+                 
+                <span>
+                  2.67 × 0.60 =
+                   
+                </span>
+                1.6
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Attitude Fitment (10%) →
+                 
+                <span>
+                  3.0 × 0.10 =
+                   
+                </span>
+                0.3
+              </h4>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-19mf7i9-7"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Strong"
+          >
+            Step 4: Calculate Final Score: 
+            <br />
+            <p>
+              Summing up the weighted scores:
+            </p>
+          </h4>
+          <ul
+            class="sc-1xeus4s-1 hIctrP tips-steps"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ plain-text"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              0.75 + 1.602 + 0.30 =
+               
+              2.65
+            </h4>
+          </ul>
+        </div>
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-13 kwOfje"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Strong"
+        >
+          Final Performance Score: 2.65
+        </h4>
+        <h4
+          class="sc-1ntgl3l-0 fgmHgf"
+          style="font-size: 14px;"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Regular"
+        >
+          This process ensures that each KRA contributes to the overall performance based on its assigned weight.
+        </h4>
+      </div>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Performance guidelines for Self Review should take current Date if no default start, end dates are passed 1`] = `
+<div>
+  <main
+    class="sc-1gezhf4-0 hxvASV"
+  >
+    <div
+      class="sc-1g5hjz6-0 tSXrN row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-1m5xp7v-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 ffNHoQ sc-1m5xp7v-0 igdqoh"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Performance Guidelines
+        </h3>
+      </div>
+      <button
+        class="sc-1k2druj-0 isRZaC sc-1m5xp7v-1"
+        edges="square"
+        type="button"
+        variant="solid"
+      >
+        <span
+          class="sc-1ntgl3l-0 hCOINF"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="button1"
+        >
+          Continue Self Review
+        </span>
+      </button>
+    </div>
+    <h4
+      class="sc-1ntgl3l-0 mQEbX"
+      textalign="initial"
+      textcolor="inherit"
+      textvariant="h4"
+      textweight="Medium"
+    >
+      Weightage
+    </h4>
+    <div
+      bg="white"
+      borderradius="2"
+      class="sc-12ecrgm-0 ihdlFE sc-h2rnz1-0 bFmZdh"
+      color="black"
+      display="flex"
+      font-variant="body2"
+      px="4"
+      py="4"
+    >
+      <div
+        bg="white"
+        borderradius="2"
+        class="sc-12ecrgm-0 ihdlFE sc-h2rnz1-1 cNiSHN"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <div
+          bg="white"
+          borderradius="2"
+          class="sc-12ecrgm-0 ihdlFE sc-h2rnz1-3 cLSvsn"
+          color="black"
+          display="flex"
+          font-variant="body2"
+          px="4"
+          py="4"
+        >
+          <div
+            class="sc-9a1ram-0 sc-h2rnz1-2 loewoM jLmjlD"
+          >
+            <h3
+              class="sc-1ntgl3l-0 gkLrzp"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h3"
+              textweight="Strong"
+            >
+              50
+              %
+            </h3>
+            <h4
+              class="sc-1ntgl3l-0 eVIGtR"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Skills & Knowledge Growth
+            </h4>
+          </div>
+        </div>
+        <div
+          bg="white"
+          borderradius="2"
+          class="sc-12ecrgm-0 ihdlFE sc-h2rnz1-4 dnTmfD"
+          color="black"
+          display="flex"
+          font-variant="body2"
+          px="4"
+          py="4"
+        >
+          <div
+            class="sc-h2rnz1-10 cSeXmj"
+          >
+            <h3
+              class="sc-1ntgl3l-0 ffNHoQ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h3"
+              textweight="Medium"
+            >
+              Performance Metrics Preview
+            </h3>
+            <h3
+              class="sc-1ntgl3l-0 ffNHoQ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h3"
+              textweight="Medium"
+            >
+              Point Value
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        bg="white"
+        borderradius="2"
+        class="sc-12ecrgm-0 ihdlFE sc-h2rnz1-6 fElbyD"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <div
+          class="sc-1e1w77x-7 dCIa-ds"
+        >
+          <h3
+            class="sc-1ntgl3l-0 CEwzC"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h3"
+          >
+            Tips
+          </h3>
+          <div
+            class="sc-h2rnz1-5 bKvLUN"
+          />
+        </div>
+        <h4
+          class="sc-1ntgl3l-0 krOgZO"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Strong"
+        >
+          How we calculate your performance?
+        </h4>
+        <h4
+          class="sc-1ntgl3l-0 kWlkNu"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Light"
+        >
+          Assume the employee is evaluated with the following scores:
+        </h4>
+        <div
+          class="sc-h2rnz1-7 helIlC"
+        >
+          <h4
+            class="sc-1ntgl3l-0 mQEbX sc-h2rnz1-8 jlKzeZ"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Medium"
+          >
+            1
+            . 
+            *Results* (3 attributes):
+          </h4>
+          <ul
+            class="sc-13lq9ra-1 jicSEp"
+          >
+            <li
+              class="sc-13lq9ra-2 eFTQmS"
+            >
+              <h4
+                class="sc-1ntgl3l-0 eVIGtR sc-h2rnz1-9"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Attribute 1: 3
+              </h4>
+            </li>
+            <li
+              class="sc-13lq9ra-2 eFTQmS"
+            >
+              <h4
+                class="sc-1ntgl3l-0 eVIGtR sc-h2rnz1-9"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Attribute 2: 2
+              </h4>
+            </li>
+            <li
+              class="sc-13lq9ra-2 eFTQmS"
+            >
+              <h4
+                class="sc-1ntgl3l-0 eVIGtR sc-h2rnz1-9"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Attribute 3: 3
+              </h4>
+            </li>
+            <li
+              class="sc-13lq9ra-2 eFTQmS"
+            >
+              <h4
+                class="sc-1ntgl3l-0 eVIGtR sc-h2rnz1-9"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Average Score for Results = (3 + 2 + 3) / 3 = 2.67
+              </h4>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-h2rnz1-7 helIlC"
+        >
+          <h4
+            class="sc-1ntgl3l-0 mQEbX sc-h2rnz1-8 jlKzeZ"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Medium"
+          >
+            2
+            . 
+            *Knowledge & Skill Growth* (2 attributes):
+          </h4>
+          <ul
+            class="sc-13lq9ra-1 jicSEp"
+          >
+            <li
+              class="sc-13lq9ra-2 eFTQmS"
+            >
+              <h4
+                class="sc-1ntgl3l-0 eVIGtR sc-h2rnz1-9"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Attribute 1: 3
+              </h4>
+            </li>
+            <li
+              class="sc-13lq9ra-2 eFTQmS"
+            >
+              <h4
+                class="sc-1ntgl3l-0 eVIGtR sc-h2rnz1-9"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Attribute 2: 2
+              </h4>
+            </li>
+            <li
+              class="sc-13lq9ra-2 eFTQmS"
+            >
+              <h4
+                class="sc-1ntgl3l-0 eVIGtR sc-h2rnz1-9"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Average Score for Process = (3 + 2) / 2 = 2.5
+              </h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Performance guidelines for Team's Check-in should render properly 1`] = `
+<div>
+  <div
+    class="sc-mbkfkf-0 KnoHL"
+  >
+    <main
+      class="sc-1ehavxz-0 dDyhBJ"
+    >
+      <div
+        class="sc-6d0kjn-0 dkGZbP"
+      >
+        <svg
+          class="sc-433e5x-0 dVjAFq"
+          height="1em"
+          viewBox="0 0 100 100"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="2s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+          <path
+            d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="1s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="-360 50 50"
+              type="rotate"
+            />
+          </path>
+          <path
+            d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="2s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+        </svg>
+      </div>
+    </main>
+  </div>
+</div>
+`;
+
+exports[`Performance guidelines for Team's Review should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Performance Guidelines
+        </h3>
+      </div>
+      <button
+        class="sc-1k2druj-0 eLgfbc sc-w8e7z6-1"
+        edges="square"
+        type="button"
+        variant="solid"
+      >
+        <span
+          class="sc-1ntgl3l-0 eOsHHD"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="button1"
+        >
+          Loading
+        </span>
+      </button>
+    </div>
+    <div
+      style="display: flex; flex-direction: column; row-gap: 1rem; margin-bottom: 2rem;"
+    >
+      <span
+        class="sc-1ntgl3l-0 dUPZoS"
+        style="font-size: 14px;"
+        textalign="initial"
+        textcolor="inherit"
+        textvariant="body1"
+        textweight="Medium"
+      >
+        Team member:
+         
+        <span
+          class="sc-1ntgl3l-0 dhgrkE"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="body1"
+          textweight="Regular"
+        >
+          Abhinayy
+           
+          Katta
+           (
+          C0001
+          )
+        </span>
+      </span>
+      <span
+        class="sc-1ntgl3l-0 dUPZoS"
+        style="font-size: 14px;"
+        textalign="initial"
+        textcolor="inherit"
+        textvariant="body1"
+        textweight="Medium"
+      >
+        Review Cycle:
+         
+        <span
+          class="sc-1ntgl3l-0 dhgrkE"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="body1"
+          textweight="Regular"
+        >
+          16th Nov 2024 - 21st Nov 2024
+        </span>
+      </span>
+    </div>
+    <h4
+      class="sc-1ntgl3l-0 jPeJxZ"
+      textalign="initial"
+      textcolor="inherit"
+      textvariant="h4"
+      textweight="Medium"
+    >
+      Weightage
+    </h4>
+    <div
+      bg="white"
+      borderradius="2"
+      class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-0 ZkjjS"
+      color="black"
+      display="flex"
+      font-variant="body2"
+      px="4"
+      py="4"
+    >
+      <div
+        bg="white"
+        borderradius="2"
+        class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-1 cLJquV"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <div
+          bg="white"
+          borderradius="2"
+          class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-3 INSTc"
+          color="black"
+          display="flex"
+          font-variant="body2"
+          px="4"
+          py="4"
+        >
+          <div
+            class="sc-1exx2co-0 sc-19mf7i9-2 dufstT cwGMGQ"
+          >
+            <h3
+              class="sc-1ntgl3l-0 lhJlYH"
+              style="font-size: 30px;"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h3"
+              textweight="Strong"
+            >
+              50
+              %
+            </h3>
+            <h4
+              class="sc-1ntgl3l-0 fgmHgf"
+              style="font-size: 14px;"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Skills & Knowledge Growth
+            </h4>
+          </div>
+        </div>
+        <div
+          bg="white"
+          borderradius="2"
+          class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-4 kaELTU"
+          color="black"
+          display="flex"
+          font-variant="body2"
+          px="4"
+          py="4"
+        >
+          <div
+            class="sc-19mf7i9-11 kQizvx"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Performance Metrics Preview
+            </h4>
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Value
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        bg="white"
+        borderradius="2"
+        class="sc-12ecrgm-0 dAEUnm sc-19mf7i9-6 dSUPUp"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <div
+          class="sc-murh6i-7 fggvmg"
+        >
+          <h3
+            class="sc-1ntgl3l-0 lhJlYH sc-tkiih6-22 isRtxH"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h3"
+            textweight="Strong"
+          >
+            Tips
+          </h3>
+          <div
+            class="sc-19mf7i9-5 hFFNMe"
+          />
+        </div>
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Strong"
+        >
+          How is your performance calculated?
+        </h4>
+        <h4
+          class="sc-1ntgl3l-0 fgmHgf"
+          style="font-size: 14px;"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Regular"
+        >
+          Your performance is evaluated based on the given Key Performance Indicators (KPIs). Here’s how the calculation works:
+        </h4>
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Strong"
+        >
+          Step 1: Assign KPI Scores
+          <br />
+          <p
+            class="list-text"
+          >
+            Let's assume the KPI scores for each Key Result Area (KRA) are as follows:
+          </p>
+        </h4>
+        <ul
+          class="sc-1xeus4s-1 hIctrP score-list"
+        >
+          <li
+            class="sc-1xeus4s-2 jIFqE"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Knowledge & Skill Growth:
+            </h4>
+          </li>
+          <ul
+            class="sc-1xeus4s-1 hIctrP"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                1st KPI Score: 3
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                2nd KPI Score: 2
+              </h4>
+            </li>
+          </ul>
+        </ul>
+        <ul
+          class="sc-1xeus4s-1 hIctrP score-list"
+        >
+          <li
+            class="sc-1xeus4s-2 jIFqE"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Results:
+            </h4>
+          </li>
+          <ul
+            class="sc-1xeus4s-1 hIctrP"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                1st KPI Score: 3
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                2nd KPI Score: 2
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                3rd KPI Score: 3
+              </h4>
+            </li>
+          </ul>
+        </ul>
+        <ul
+          class="sc-1xeus4s-1 hIctrP score-list"
+        >
+          <li
+            class="sc-1xeus4s-2 jIFqE"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              Attitude Fitment:
+            </h4>
+          </li>
+          <ul
+            class="sc-1xeus4s-1 hIctrP"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                1st KPI Score: 3
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-19mf7i9-10 hqrSCQ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                2nd KPI Score: 3
+              </h4>
+            </li>
+          </ul>
+        </ul>
+        <div
+          class="sc-19mf7i9-7"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Strong"
+          >
+            Step 2: Calculate KRA Averages: 
+            <br />
+            <p>
+              The average score for each KRA is calculated as follows:
+            </p>
+          </h4>
+          <ul
+            class="sc-1xeus4s-1 hIctrP tips-steps"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Knowledge & Skill Growth:
+                 
+                <span>
+                  (3 + 2) ÷ 2 =
+                   
+                </span>
+                2.5
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Results:
+                 
+                <span>
+                  (3 + 2 + 3) ÷ 3 =
+                   
+                </span>
+                2.67
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Attitude Fitment:
+                 
+                <span>
+                  (3 + 3) ÷ 2 =
+                   
+                </span>
+                3.0
+              </h4>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-19mf7i9-7"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Strong"
+          >
+            Step 3: Apply Weighted Scores: 
+            <br />
+            <p>
+              Each KRA average is multiplied by its assigned weight:
+            </p>
+          </h4>
+          <ul
+            class="sc-1xeus4s-1 hIctrP tips-steps"
+          >
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Knowledge & Skill Growth (30%) →
+                 
+                <span>
+                  2.5 × 0.30 =
+                   
+                </span>
+                0.75
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Results (60%) →
+                 
+                <span>
+                  2.67 × 0.60 =
+                   
+                </span>
+                1.6
+              </h4>
+            </li>
+            <li
+              class="sc-1xeus4s-2 jIFqE"
+            >
+              <h4
+                class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Medium"
+              >
+                Attitude Fitment (10%) →
+                 
+                <span>
+                  3.0 × 0.10 =
+                   
+                </span>
+                0.3
+              </h4>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="sc-19mf7i9-7"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-8 A-dVwI"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Strong"
+          >
+            Step 4: Calculate Final Score: 
+            <br />
+            <p>
+              Summing up the weighted scores:
+            </p>
+          </h4>
+          <ul
+            class="sc-1xeus4s-1 hIctrP tips-steps"
+          >
+            <h4
+              class="sc-1ntgl3l-0 jPeJxZ sc-19mf7i9-9 hGWEGZ plain-text"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Medium"
+            >
+              0.75 + 1.602 + 0.30 =
+               
+              2.65
+            </h4>
+          </ul>
+        </div>
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU sc-19mf7i9-13 kwOfje"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Strong"
+        >
+          Final Performance Score: 2.65
+        </h4>
+        <h4
+          class="sc-1ntgl3l-0 fgmHgf"
+          style="font-size: 14px;"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Regular"
+        >
+          This process ensures that each KRA contributes to the overall performance based on its assigned weight.
+        </h4>
+      </div>
+    </div>
+  </main>
+</div>
+`;

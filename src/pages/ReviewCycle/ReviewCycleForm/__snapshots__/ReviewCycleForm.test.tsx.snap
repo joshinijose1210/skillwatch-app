@@ -1,0 +1,3544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Review Cycle datepicker should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ sc-w1p3w7-0 gxWkRu"
+  >
+    <div>
+      <div
+        class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+      >
+        <div
+          class="sc-w8e7z6-2"
+        >
+          <h3
+            class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h3"
+            textweight="Medium"
+          >
+            Add Review Cycle
+          </h3>
+        </div>
+      </div>
+      <form>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-2"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Review Cycle Timeline: 
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 dEINyG"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                data-testid="review-cycle-datepicker"
+                id="review-cycle-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 BrSGZ ensfuF"
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="review-cycle-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 lcrXdL"
+                    fill="none"
+                    height="1em"
+                    id="review-cycle-calendar-icon"
+                    title="review-cycle-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="review-cycle-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="review-cycle-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="review-cycle-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fHdWbA"
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="review-cycle-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="review-cycle-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="review-cycle-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="review-cycle-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Self Review Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 eChlqB"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="self-review-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 UwvIf bHIRJq"
+                  disabled=""
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="self-review-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 kOwRtQ"
+                    fill="none"
+                    height="1em"
+                    id="self-review-calendar-icon"
+                    title="self-review-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="self-review-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="self-review-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="self-review-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fKJEEr"
+                    disabled=""
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="self-review-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="self-review-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="self-review-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="self-review-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Manager Review Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 eChlqB"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="manager-review-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 UwvIf bHIRJq"
+                  disabled=""
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="manager-review-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 kOwRtQ"
+                    fill="none"
+                    height="1em"
+                    id="manager-review-calendar-icon"
+                    title="manager-review-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="manager-review-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="manager-review-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="manager-review-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fKJEEr"
+                    disabled=""
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="manager-review-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="manager-review-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="manager-review-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="manager-review-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Check-in with Manager Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 eChlqB"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="check-in-with-manager-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 UwvIf bHIRJq"
+                  disabled=""
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="check-in-with-manager-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 kOwRtQ"
+                    fill="none"
+                    height="1em"
+                    id="check-in-with-manager-calendar-icon"
+                    title="check-in-with-manager-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="check-in-with-manager-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="check-in-with-manager-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="check-in-with-manager-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fKJEEr"
+                    disabled=""
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="check-in-with-manager-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="check-in-with-manager-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="check-in-with-manager-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="check-in-with-manager-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-2"
+        >
+          <div
+            class="sc-tkiih6-29 fWtWBE"
+          >
+            <div
+              class="sc-12atfcu-3 hixidz"
+              id="publish:-"
+              labelposition="left"
+            >
+              <label
+                class="sc-975cgx-0 aFzmi sc-12atfcu-1 gBASdL"
+                for="publish:-"
+                labelposition="left"
+                labelvariant="h4"
+                labelweight="Regular"
+              >
+                Publish: 
+              </label>
+              <div
+                class="sc-12atfcu-0 sc-1oxfop0-0 hjFLkE hzRUNj"
+              >
+                <input
+                  class="sc-1oxfop0-5 kOEioh sc-tkiih6-30"
+                  data-testid="publishbtn"
+                  id="publish:-"
+                  type="checkbox"
+                />
+                <div
+                  class="sc-1oxfop0-1 kTppyc"
+                >
+                  <div
+                    class="sc-1oxfop0-4 fOqcXx"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row flex-end"
+        >
+          <button
+            class="sc-1k2druj-0 eLgfbc sc-w1p3w7-1 hFupYV"
+            data-testid="actionbtn"
+            disabled=""
+            edges="square"
+            type="submit"
+            variant="solid"
+          >
+            <span
+              class="sc-1ntgl3l-0 eOsHHD"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="button1"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      style="width: 50%; margin-top: 6.5rem;"
+    >
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="true"
+          class="sc-1ouxg1r-0 hwLnLP sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Planning the Timeline
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 ljhHPp sc-1fchxsp-5 eeEA-dp"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Avoid scheduling during holidays, quarter-end, appraisals, or known crunch periods.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Announce the review cycle at least 1-2 months in advance to give everyone time to prepare.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Allocate at least 1 week for Self Review, at least 2 weeks for Manager Review, and at least 2-3 weeks for Check-in meetings.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Include buffer days for escalations, pending submissions, or follow-ups.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ensure all the KRAs and KPIs are up-to-date before you start with the review cycle.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Confirm reporting hierarchy is up-to-date to avoid reviews by incorrect managers.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Confirm every team members designation/team/department is correctly assigned to ensure correct KPIs are displayed.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  You can set the Self and Manager Review in parallel but Check-ins can start only after the completion of Self and Manager Review.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Note - Employees and Managers won't be able to see each others reviews unless both have submitted the review to ensure unbiased review process.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  After the start of Self Review—KRAs, KPIs, Managers, Designation, Team and Department can't be updated or changed.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Self Review Checks
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ensure all employees have visibility of their KRAs and KPIs when the cycle starts.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Decide if joiners (less than 3 months) should be excluded or given adjusted cycles.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to use Autosave/draft feature is so that they can save progress and return later.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to go through Prior cycle data (feedback/goals).
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to request for feedback from their leads, managers and colleagues.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Manager Review Checks
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Plan for cases where a manager has left or is on leave—assign alternate reviewers.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  You can set two managers for an employee, one can be a Tech Lead and the other can be a Project Manager.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Plan for cases where an employee has worked with multiple managers on different projects.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Managers with large teams may need extended timelines.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Highlight the importance of giving unbiased and evidence-based reviews/ratings.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  If you want managers to provide both a review and a rating during the review process, enable it from "Configurations &gt; Settings".
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Check-in with Manager Notes
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Check-in meeting should be scheduled at least 1 day in advance.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Remind both parties to join on time, keep videos ON, and avoid distractions.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Employees should be encouraged to bring in goals, reflections, and questions.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  For sensitive cases, consider having HR present as an observer.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Add Review Cycle should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ sc-w1p3w7-0 gxWkRu"
+  >
+    <div>
+      <div
+        class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+      >
+        <div
+          class="sc-w8e7z6-2"
+        >
+          <h3
+            class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h3"
+            textweight="Medium"
+          >
+            Add Review Cycle
+          </h3>
+        </div>
+      </div>
+      <form>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-2"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Review Cycle Timeline: 
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 dEINyG"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                data-testid="review-cycle-datepicker"
+                id="review-cycle-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 BrSGZ ensfuF"
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="review-cycle-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 lcrXdL"
+                    fill="none"
+                    height="1em"
+                    id="review-cycle-calendar-icon"
+                    title="review-cycle-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="review-cycle-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="review-cycle-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="review-cycle-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fHdWbA"
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="review-cycle-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="review-cycle-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="review-cycle-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="review-cycle-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Self Review Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 eChlqB"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="self-review-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 UwvIf bHIRJq"
+                  disabled=""
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="self-review-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 kOwRtQ"
+                    fill="none"
+                    height="1em"
+                    id="self-review-calendar-icon"
+                    title="self-review-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="self-review-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="self-review-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="self-review-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fKJEEr"
+                    disabled=""
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="self-review-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="self-review-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="self-review-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="self-review-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Manager Review Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 eChlqB"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="manager-review-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 UwvIf bHIRJq"
+                  disabled=""
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="manager-review-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 kOwRtQ"
+                    fill="none"
+                    height="1em"
+                    id="manager-review-calendar-icon"
+                    title="manager-review-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="manager-review-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="manager-review-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="manager-review-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fKJEEr"
+                    disabled=""
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="manager-review-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="manager-review-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="manager-review-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="manager-review-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Check-in with Manager Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 eChlqB"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="check-in-with-manager-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 UwvIf bHIRJq"
+                  disabled=""
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="check-in-with-manager-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 kOwRtQ"
+                    fill="none"
+                    height="1em"
+                    id="check-in-with-manager-calendar-icon"
+                    title="check-in-with-manager-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="check-in-with-manager-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="check-in-with-manager-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="check-in-with-manager-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fKJEEr"
+                    disabled=""
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="check-in-with-manager-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      disabled=""
+                      errortext=""
+                      id="check-in-with-manager-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value=""
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      DD - MM - YYYY
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="check-in-with-manager-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="check-in-with-manager-helper-text"
+                  variant="outlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-2"
+        >
+          <div
+            class="sc-tkiih6-29 fWtWBE"
+          >
+            <div
+              class="sc-12atfcu-3 hixidz"
+              id="publish:-"
+              labelposition="left"
+            >
+              <label
+                class="sc-975cgx-0 aFzmi sc-12atfcu-1 gBASdL"
+                for="publish:-"
+                labelposition="left"
+                labelvariant="h4"
+                labelweight="Regular"
+              >
+                Publish: 
+              </label>
+              <div
+                class="sc-12atfcu-0 sc-1oxfop0-0 hjFLkE hzRUNj"
+              >
+                <input
+                  class="sc-1oxfop0-5 kOEioh sc-tkiih6-30"
+                  data-testid="publishbtn"
+                  id="publish:-"
+                  type="checkbox"
+                />
+                <div
+                  class="sc-1oxfop0-1 kTppyc"
+                >
+                  <div
+                    class="sc-1oxfop0-4 fOqcXx"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row flex-end"
+        >
+          <button
+            class="sc-1k2druj-0 eLgfbc sc-w1p3w7-1 hFupYV"
+            data-testid="actionbtn"
+            disabled=""
+            edges="square"
+            type="submit"
+            variant="solid"
+          >
+            <span
+              class="sc-1ntgl3l-0 eOsHHD"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="button1"
+            >
+              Save
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      style="width: 50%; margin-top: 6.5rem;"
+    >
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="true"
+          class="sc-1ouxg1r-0 hwLnLP sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Planning the Timeline
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 ljhHPp sc-1fchxsp-5 eeEA-dp"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Avoid scheduling during holidays, quarter-end, appraisals, or known crunch periods.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Announce the review cycle at least 1-2 months in advance to give everyone time to prepare.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Allocate at least 1 week for Self Review, at least 2 weeks for Manager Review, and at least 2-3 weeks for Check-in meetings.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Include buffer days for escalations, pending submissions, or follow-ups.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ensure all the KRAs and KPIs are up-to-date before you start with the review cycle.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Confirm reporting hierarchy is up-to-date to avoid reviews by incorrect managers.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Confirm every team members designation/team/department is correctly assigned to ensure correct KPIs are displayed.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  You can set the Self and Manager Review in parallel but Check-ins can start only after the completion of Self and Manager Review.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Note - Employees and Managers won't be able to see each others reviews unless both have submitted the review to ensure unbiased review process.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  After the start of Self Review—KRAs, KPIs, Managers, Designation, Team and Department can't be updated or changed.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Self Review Checks
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ensure all employees have visibility of their KRAs and KPIs when the cycle starts.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Decide if joiners (less than 3 months) should be excluded or given adjusted cycles.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to use Autosave/draft feature is so that they can save progress and return later.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to go through Prior cycle data (feedback/goals).
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to request for feedback from their leads, managers and colleagues.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Manager Review Checks
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Plan for cases where a manager has left or is on leave—assign alternate reviewers.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  You can set two managers for an employee, one can be a Tech Lead and the other can be a Project Manager.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Plan for cases where an employee has worked with multiple managers on different projects.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Managers with large teams may need extended timelines.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Highlight the importance of giving unbiased and evidence-based reviews/ratings.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  If you want managers to provide both a review and a rating during the review process, enable it from "Configurations &gt; Settings".
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Check-in with Manager Notes
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Check-in meeting should be scheduled at least 1 day in advance.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Remind both parties to join on time, keep videos ON, and avoid distractions.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Employees should be encouraged to bring in goals, reflections, and questions.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  For sensitive cases, consider having HR present as an observer.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Update Review Cycle should render properly 1`] = `
+<div>
+  <div
+    class="sc-lykfsq-0 btrpNy"
+    position="top-end"
+  >
+    <div
+      class="sc-1lxsdxg-0 dKMYfL"
+      timer="3000"
+      variant="error"
+    >
+      <div
+        class="sc-1lxsdxg-1 hjjvw"
+        variant="error"
+      >
+        <svg
+          class="sc-1pf3x8a-0 klDMsE"
+          fill="none"
+          height="1em"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 11c-.55 0-1-.45-1-1V8c0-.55.45-1 1-1s1 .45 1 1v4c0 .55-.45 1-1 1zm-1 2v2h2v-2h-2z"
+            fill="#000"
+            fill-opacity=".54"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div
+        class="sc-1lxsdxg-2 dbmovP"
+      >
+        <span
+          class="sc-1ntgl3l-0 gPMgWC"
+          textalign="initial"
+          textcolor="inherit"
+          textweight="Medium"
+        >
+          Something went wrong
+        </span>
+      </div>
+      <div
+        class="sc-1lxsdxg-3 gqAlhl"
+      >
+        <svg
+          class="sc-1pf3x8a-0 dCjPxk"
+          fill="none"
+          height="1em"
+          title="toast-close-icon"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12 5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+            fill="#000"
+            fill-opacity=".54"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ sc-w1p3w7-0 gxWkRu"
+  >
+    <div>
+      <div
+        class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+      >
+        <div
+          class="sc-w8e7z6-2"
+        >
+          <h3
+            class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h3"
+            textweight="Medium"
+          >
+            Edit Review Cycle
+          </h3>
+        </div>
+      </div>
+      <form>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-2"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Review Cycle Timeline: 
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 dEINyG"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                data-testid="review-cycle-datepicker"
+                id="review-cycle-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 BrSGZ ensfuF"
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="review-cycle-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 lcrXdL"
+                    fill="none"
+                    height="1em"
+                    id="review-cycle-calendar-icon"
+                    title="review-cycle-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="review-cycle-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="review-cycle-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="28 - 10 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      28 - 10 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="review-cycle-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fHdWbA"
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="review-cycle-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="review-cycle-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="06 - 11 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      06 - 11 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="review-cycle-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="review-cycle-helper-text"
+                  variant="outlined"
+                />
+              </div>
+              <svg
+                class="sc-1pf3x8a-0 ivKmVS"
+                data-testid="review-cycle-datepicker-cancel-icon"
+                fill="none"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2 12C2 6.47 6.47 2 12 2s10 4.47 10 10-4.47 10-10 10S2 17.53 2 12zm12.89 4.3c.39.39 1.02.39 1.41 0 .38-.39.38-1.03 0-1.41L13.41 12l2.89-2.89a.996.996 0 1 0-1.41-1.41L12 10.59 9.11 7.7A.996.996 0 1 0 7.7 9.11L10.59 12 7.7 14.89a.996.996 0 1 0 1.41 1.41L12 13.41l2.89 2.89z"
+                  fill="#000"
+                  fill-opacity=".54"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Self Review Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 dEINyG"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="self-review-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 BrSGZ ensfuF"
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="self-review-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 lcrXdL"
+                    fill="none"
+                    height="1em"
+                    id="self-review-calendar-icon"
+                    title="self-review-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="self-review-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="self-review-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="28 - 10 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      28 - 10 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="self-review-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fHdWbA"
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="self-review-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="self-review-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="30 - 10 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      30 - 10 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="self-review-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="self-review-helper-text"
+                  variant="outlined"
+                />
+              </div>
+              <svg
+                class="sc-1pf3x8a-0 ivKmVS"
+                data-testid="self-review-datepicker-cancel-icon"
+                fill="none"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2 12C2 6.47 6.47 2 12 2s10 4.47 10 10-4.47 10-10 10S2 17.53 2 12zm12.89 4.3c.39.39 1.02.39 1.41 0 .38-.39.38-1.03 0-1.41L13.41 12l2.89-2.89a.996.996 0 1 0-1.41-1.41L12 10.59 9.11 7.7A.996.996 0 1 0 7.7 9.11L10.59 12 7.7 14.89a.996.996 0 1 0 1.41 1.41L12 13.41l2.89 2.89z"
+                  fill="#000"
+                  fill-opacity=".54"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Manager Review Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 dEINyG"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="manager-review-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 BrSGZ ensfuF"
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="manager-review-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 lcrXdL"
+                    fill="none"
+                    height="1em"
+                    id="manager-review-calendar-icon"
+                    title="manager-review-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="manager-review-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="manager-review-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="28 - 10 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      28 - 10 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="manager-review-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fHdWbA"
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="manager-review-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="manager-review-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="31 - 10 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      31 - 10 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="manager-review-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="manager-review-helper-text"
+                  variant="outlined"
+                />
+              </div>
+              <svg
+                class="sc-1pf3x8a-0 ivKmVS"
+                data-testid="manager-review-datepicker-cancel-icon"
+                fill="none"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2 12C2 6.47 6.47 2 12 2s10 4.47 10 10-4.47 10-10 10S2 17.53 2 12zm12.89 4.3c.39.39 1.02.39 1.41 0 .38-.39.38-1.03 0-1.41L13.41 12l2.89-2.89a.996.996 0 1 0-1.41-1.41L12 10.59 9.11 7.7A.996.996 0 1 0 7.7 9.11L10.59 12 7.7 14.89a.996.996 0 1 0 1.41 1.41L12 13.41l2.89 2.89z"
+                  fill="#000"
+                  fill-opacity=".54"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-1"
+        >
+          <div
+            class="sc-h70dbj-0 fQmYvl column"
+          >
+            <div
+              class="sc-h70dbj-0 fQmYvl row align-center"
+            >
+              <h4
+                class="sc-1ntgl3l-0 fgmHgf sc-w1p3w7-4 diMqnW"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="h4"
+                textweight="Regular"
+              >
+                Check-in with Manager Dates:
+              </h4>
+            </div>
+          </div>
+          <div
+            class="sc-h70dbj-0 fQmYvl column expanded"
+          >
+            <div
+              class="sc-w1p3w7-3 dEINyG"
+            >
+              <div
+                class="sc-17d4s39-0 bVMFZm sc-w1p3w7-2 ewyDtv"
+                id="check-in-with-manager-wrapper"
+                minwidth="33.8rem"
+              >
+                <div
+                  class="sc-19px6zp-0 sc-13bf4az-0 BrSGZ ensfuF"
+                  filled="[object Object]"
+                  fusion="[object Object]"
+                  id="check-in-with-manager-textFields"
+                  outlined="[object Object]"
+                  textvariant="[object Object]"
+                  variant="outlined"
+                >
+                  <svg
+                    class="sc-1pf3x8a-0 ivKmVS sc-6rsprq-0 lcrXdL"
+                    fill="none"
+                    height="1em"
+                    id="check-in-with-manager-calendar-icon"
+                    title="check-in-with-manager-calendar-icon"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M19 4h-1V3c0-.55-.45-1-1-1s-1 .45-1 1v1H8V3c0-.55-.45-1-1-1s-1 .45-1 1v1H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 15c0 .55-.45 1-1 1H6c-.55 0-1-.45-1-1V9h14v10zM9 13v-2H7v2h2zm2-2h2v2h-2v-2zm6 2v-2h-2v2h2z"
+                      fill="#000"
+                      fill-opacity=".54"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="check-in-with-manager-startDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="check-in-with-manager-startDate-input"
+                      inputsize="M"
+                      name="START_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="01 - 11 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      01 - 11 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="check-in-with-manager-startDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      From
+                    </label>
+                  </div>
+                  <i
+                    class="sc-yb1wrg-0 fHdWbA"
+                    variant="outlined"
+                  />
+                  <div
+                    class="sc-lhr232-0 btNOKw"
+                    id="check-in-with-manager-endDate-input-wrapper"
+                    variant="outlined"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="sc-hb99wz-0 jaEbhp"
+                      errortext=""
+                      id="check-in-with-manager-endDate-input"
+                      inputsize="M"
+                      name="END_DATE"
+                      pattern="\\d{2} - \\d{2} - \\d{4}"
+                      placeholder="DD - MM - YYYY"
+                      value="06 - 11 - 2023"
+                      variant="outlined"
+                    />
+                    <span
+                      class="sc-1r5xr2a-0 cOYtDY"
+                      variant="outlined"
+                    >
+                      06 - 11 - 2023
+                    </span>
+                    <label
+                      class="sc-1du51u0-0 eMZrST"
+                      for="check-in-with-manager-endDate-input"
+                      inputwidth="0"
+                      variant="outlined"
+                    >
+                      To
+                    </label>
+                  </div>
+                </div>
+                <span
+                  class="sc-avlt8d-0 llxXA-d"
+                  id="check-in-with-manager-helper-text"
+                  variant="outlined"
+                />
+              </div>
+              <svg
+                class="sc-1pf3x8a-0 ivKmVS"
+                data-testid="check-in-with-manager-datepicker-cancel-icon"
+                fill="none"
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M2 12C2 6.47 6.47 2 12 2s10 4.47 10 10-4.47 10-10 10S2 17.53 2 12zm12.89 4.3c.39.39 1.02.39 1.41 0 .38-.39.38-1.03 0-1.41L13.41 12l2.89-2.89a.996.996 0 1 0-1.41-1.41L12 10.59 9.11 7.7A.996.996 0 1 0 7.7 9.11L10.59 12 7.7 14.89a.996.996 0 1 0 1.41 1.41L12 13.41l2.89 2.89z"
+                  fill="#000"
+                  fill-opacity=".54"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-2"
+        >
+          <div
+            class="sc-tkiih6-29 fWtWBE"
+          >
+            <div
+              class="sc-12atfcu-3 hixidz"
+              id="notify-users-via-email:-"
+              labelposition="left"
+            >
+              <label
+                class="sc-975cgx-0 aFzmi sc-12atfcu-1 gBASdL"
+                for="notify-users-via-email:-"
+                labelposition="left"
+                labelvariant="h4"
+                labelweight="Regular"
+              >
+                Notify users via email: 
+              </label>
+              <div
+                class="sc-12atfcu-0 sc-1oxfop0-0 hjFLkE hzRUNj"
+              >
+                <input
+                  checked=""
+                  class="sc-1oxfop0-5 kOEioh sc-tkiih6-30"
+                  data-testid="notifybtn"
+                  id="notify-users-via-email:-"
+                  type="checkbox"
+                />
+                <div
+                  class="sc-1oxfop0-1 kTppyc"
+                >
+                  <div
+                    class="sc-1oxfop0-4 fOqcXx"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row marginTop-2"
+        >
+          <div
+            class="sc-tkiih6-29 fWtWBE"
+          >
+            <div
+              class="sc-12atfcu-3 hixidz"
+              id="publish:-"
+              labelposition="left"
+            >
+              <label
+                class="sc-975cgx-0 aFzmi sc-12atfcu-1 gBASdL"
+                for="publish:-"
+                labelposition="left"
+                labelvariant="h4"
+                labelweight="Regular"
+              >
+                Publish: 
+              </label>
+              <div
+                class="sc-12atfcu-0 sc-1oxfop0-0 hjFLkE hzRUNj"
+              >
+                <input
+                  class="sc-1oxfop0-5 kOEioh sc-tkiih6-30"
+                  data-testid="publishbtn"
+                  id="publish:-"
+                  type="checkbox"
+                />
+                <div
+                  class="sc-1oxfop0-1 kTppyc"
+                >
+                  <div
+                    class="sc-1oxfop0-4 fOqcXx"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-h70dbj-0 fQmYvl row flex-end"
+        >
+          <button
+            class="sc-1k2druj-0 eLgfbc sc-w1p3w7-1 hFupYV"
+            data-testid="actionbtn"
+            edges="square"
+            type="submit"
+            variant="solid"
+          >
+            <span
+              class="sc-1ntgl3l-0 eOsHHD"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="button1"
+            >
+              Update
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      style="width: 50%; margin-top: 6.5rem;"
+    >
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="true"
+          class="sc-1ouxg1r-0 hwLnLP sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Planning the Timeline
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 ljhHPp sc-1fchxsp-5 eeEA-dp"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Avoid scheduling during holidays, quarter-end, appraisals, or known crunch periods.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Announce the review cycle at least 1-2 months in advance to give everyone time to prepare.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Allocate at least 1 week for Self Review, at least 2 weeks for Manager Review, and at least 2-3 weeks for Check-in meetings.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Include buffer days for escalations, pending submissions, or follow-ups.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ensure all the KRAs and KPIs are up-to-date before you start with the review cycle.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Confirm reporting hierarchy is up-to-date to avoid reviews by incorrect managers.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Confirm every team members designation/team/department is correctly assigned to ensure correct KPIs are displayed.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  You can set the Self and Manager Review in parallel but Check-ins can start only after the completion of Self and Manager Review.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Note - Employees and Managers won't be able to see each others reviews unless both have submitted the review to ensure unbiased review process.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  After the start of Self Review—KRAs, KPIs, Managers, Designation, Team and Department can't be updated or changed.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Self Review Checks
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ensure all employees have visibility of their KRAs and KPIs when the cycle starts.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Decide if joiners (less than 3 months) should be excluded or given adjusted cycles.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to use Autosave/draft feature is so that they can save progress and return later.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to go through Prior cycle data (feedback/goals).
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Ask team members to request for feedback from their leads, managers and colleagues.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Manager Review Checks
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Plan for cases where a manager has left or is on leave—assign alternate reviewers.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  You can set two managers for an employee, one can be a Tech Lead and the other can be a Project Manager.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Plan for cases where an employee has worked with multiple managers on different projects.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Managers with large teams may need extended timelines.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Highlight the importance of giving unbiased and evidence-based reviews/ratings.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  If you want managers to provide both a review and a rating during the review process, enable it from "Configurations &gt; Settings".
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-w3sqmf-0 hnFIgR sc-1fchxsp-15"
+      >
+        <button
+          aria-expanded="false"
+          class="sc-1ouxg1r-0 jPjwoC sc-1fchxsp-4 fGLAml"
+        >
+          <span
+            class="sc-1ntgl3l-0 gPMgWC sc-tkiih6-23 kEfcZa"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Medium"
+          >
+            Check-in with Manager Notes
+          </span>
+          <svg
+            class="sc-1pf3x8a-0 klDMsE"
+            fill="none"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.875 9l-3.88 3.88L8.115 9a.996.996 0 1 0-1.41 1.41l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59a.996.996 0 0 0 0-1.41c-.39-.38-1.03-.39-1.42 0z"
+              fill="#000"
+              fill-opacity=".54"
+            />
+          </svg>
+        </button>
+        <div
+          class="sc-aqez41-0 gHyVcj sc-1fchxsp-5 jjuNPm"
+          role="region"
+        >
+          <div
+            style="margin-top: 1rem;"
+          >
+            <ul
+              class="sc-1q8hbsf-2 bzddJq"
+            >
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Check-in meeting should be scheduled at least 1 day in advance.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Remind both parties to join on time, keep videos ON, and avoid distractions.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Employees should be encouraged to bring in goals, reflections, and questions.
+                </span>
+              </li>
+              <li
+                class="sc-1q8hbsf-3 cVwZPH"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  style="font-size: 14px;"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  For sensitive cases, consider having HR present as an observer.
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

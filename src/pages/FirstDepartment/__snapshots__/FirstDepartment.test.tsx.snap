@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstDepartment Component should take snapshot 1`] = `
+<div>
+  <div
+    data-testid="mock-navigate"
+  >
+    Navigate component
+  </div>
+</div>
+`;

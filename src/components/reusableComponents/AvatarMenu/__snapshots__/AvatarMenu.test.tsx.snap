@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarMenu component should take snapshot 1`] = `
+<div>
+  <div
+    class="sc-1298oxm-0 dQDoHN"
+  >
+    <div
+      class="sc-1298oxm-3 kwZxBE"
+    >
+      <div
+        class="sc-1dzehji-0 hjLOhC"
+        defaults="[object Object]"
+      >
+        <strong
+          class="sc-1ntgl3l-0 fzLUlA"
+          textalign="initial"
+          textcolor="inherit"
+          textweight="Strong"
+        >
+          A
+        </strong>
+        <strong
+          class="sc-1ntgl3l-0 fzLUlA"
+          textalign="initial"
+          textcolor="inherit"
+          textweight="Strong"
+        >
+          D
+        </strong>
+      </div>
+    </div>
+    <div
+      class="sc-1298oxm-2 ekJHDu inactive"
+    >
+      <ul
+        class="sc-1298oxm-1 jVMYcc"
+      >
+        <li
+          class="sc-1298oxm-4 giVItn"
+        >
+          <div
+            class="sc-1dzehji-0 hjLOhC"
+            defaults="[object Object]"
+            style="height: 100%; width: 100%;"
+          >
+            <span
+              class="sc-1ntgl3l-0 hGagSU"
+              style="margin: 2rem 2rem; font-size: 3rem; font-weight: 1rem;"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              A
+              D
+            </span>
+          </div>
+        </li>
+        <div
+          bg="white"
+          borderradius="2"
+          class="sc-12ecrgm-0 dAEUnm sc-1298oxm-8 Hlhle"
+          color="black"
+          display="flex"
+          font-variant="body2"
+          px="4"
+          py="4"
+        >
+          <h4
+            class="sc-1ntgl3l-0 igfIhV"
+            textalign="center"
+            textcolor="inherit"
+            textvariant="h4"
+          >
+            ABC
+             
+            DEF
+             
+            (SR0022)
+          </h4>
+          <h5
+            class="sc-1ntgl3l-0 dBSnDZ sc-1298oxm-7 kNgBfF"
+            textalign="center"
+            textcolor="inherit"
+            textvariant="h5"
+            textweight="Medium"
+          >
+            Team: 
+            <span>
+              BA
+            </span>
+          </h5>
+          <h5
+            class="sc-1ntgl3l-0 dBSnDZ sc-1298oxm-7 kNgBfF"
+            textalign="center"
+            textcolor="inherit"
+            textvariant="h5"
+            textweight="Medium"
+          >
+            Designation: 
+            <span>
+              BA - Traineee
+            </span>
+          </h5>
+          <h5
+            class="sc-1ntgl3l-0 dBSnDZ sc-1298oxm-7 kNgBfF"
+            textalign="center"
+            textcolor="inherit"
+            textvariant="h5"
+            textweight="Medium"
+          >
+            Role: 
+            <span>
+              Manager
+            </span>
+          </h5>
+          <li
+            class="sc-1298oxm-5 jElgbs"
+          >
+            <div
+              class="sc-1ep6kh8-0 hrIcnd"
+              id="medly-popover-wrapper"
+            >
+              <h5
+                class="sc-1ntgl3l-0 dBSnDZ sc-1298oxm-7 kNgBfF"
+                textalign="center"
+                textcolor="inherit"
+                textvariant="h5"
+                textweight="Medium"
+              >
+                abc@scalereal.com
+              </h5>
+            </div>
+          </li>
+          <h5
+            class="sc-1ntgl3l-0 dBSnDZ sc-1298oxm-7 kNgBfF"
+            textalign="center"
+            textcolor="inherit"
+            textvariant="h5"
+            textweight="Medium"
+          >
+            +917060753645
+          </h5>
+        </div>
+        <li
+          class="sc-1298oxm-6 bKQgdL"
+        >
+          <button
+            class="sc-1k2druj-0 dsEKPA"
+            edges="square"
+            type="button"
+            variant="outlined"
+          >
+            <span
+              class="sc-1ntgl3l-0 eOsHHD"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="button1"
+            >
+              Sign Out
+            </span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

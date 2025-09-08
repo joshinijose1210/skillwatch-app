@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContent component should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    Demo PageContent
+  </main>
+</div>
+`;

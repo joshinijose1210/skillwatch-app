@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tutorial Component should take snapshot 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          <h3
+            class="sc-1ntgl3l-0 kcLBOi"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h3"
+            textweight="Medium"
+          >
+            Tutorial Videos
+          </h3>
+        </h3>
+      </div>
+    </div>
+    <div
+      class="sc-groybc-2 gxbRAq"
+    >
+      <div
+        class="sc-1cnun24-0 kEKbcv sc-tkiih6-15 cvCOyL"
+        maxwidth="100%"
+        minwidth="30rem"
+      >
+        <input
+          class="sc-9l9lu7-0 lfgaXg"
+          data-testid="search-tutorial"
+          placeholder="Search by title, description, or tag"
+          value=""
+        />
+        <span
+          class="sc-1lts63a-1 lckNMu"
+        >
+          <svg
+            class="sc-1pf3x8a-0 ivKmVS"
+            fill="none"
+            height="1em"
+            title="search icon"
+            viewBox="0 0 20 20"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.063 3.125a5.938 5.938 0 1 0 0 11.875 5.938 5.938 0 0 0 0-11.875zM1.875 9.063a7.187 7.187 0 1 1 12.692 4.621l3.375 3.374a.625.625 0 1 1-.884.884l-3.374-3.374A7.188 7.188 0 0 1 1.875 9.063z"
+              fill="#606878"
+              fill-rule="evenodd"
+              stroke="#606878"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width=".3"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="sc-1hcsztp-0 DMwPt sc-tkiih6-13 cecHDR"
+        id="filter-wrapper"
+        minwidth="30rem"
+        variant="outlined"
+      >
+        <div
+          class="sc-17d4s39-0 ihsYRx"
+          id="filter-input-wrapper"
+          minwidth="30rem"
+        >
+          <div
+            class="sc-19px6zp-0 jVlHWE"
+            filled="[object Object]"
+            fusion="[object Object]"
+            minrows="1"
+            outlined="[object Object]"
+            textvariant="[object Object]"
+            variant="outlined"
+          >
+            <div
+              class="sc-lhr232-0 btNOKw"
+              variant="outlined"
+            >
+              <input
+                aria-describedby="filter-helper-text"
+                autocomplete="off"
+                class="sc-hb99wz-0 fnNpdL"
+                data-testid="filter"
+                errortext=""
+                id="filter-input"
+                inputsize="S"
+                placeholder="Filter"
+                type="text"
+                value="All"
+                variant="outlined"
+              />
+              <label
+                class="sc-1du51u0-0 hWhrlz"
+                for="filter-input"
+                inputwidth="0"
+                variant="outlined"
+              >
+                Filter
+              </label>
+            </div>
+            <svg
+              class="sc-1pf3x8a-0 bMQNVa sc-dynlvq-0 bdlxlZ"
+              fill="none"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.792 14.97a1 1 0 0 1-1.584 0l-3.165-4.11a1 1 0 0 1 .793-1.61h6.328a1 1 0 0 1 .793 1.61l-3.165 4.11z"
+                fill="#000"
+              />
+            </svg>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-groybc-1 kSjrWK"
+    >
+      <div
+        alignitems="left"
+        backgroundcolor="#ffffff"
+        borderradius="0.8rem"
+        class="sc-gr411i-0 XbrlJ sc-groybc-0 iOwCrz"
+        display="flex"
+        flex="1"
+        flowdirection="vertical"
+        padding="[object Object]"
+        separatorcolor="#98A7B7"
+        shadowcolor="#b0bcc8"
+        variant="solid"
+      >
+        <div
+          class="sc-ysclju-4 cnWXyj"
+        >
+          <img
+            alt="video"
+            class="sc-ysclju-5 hJFxSB"
+            src="/thumbnails/tutorial1.jpg"
+          />
+          <div
+            class="sc-ysclju-6 mPJQr"
+          />
+          <div
+            class="sc-ysclju-7 hLjIhT"
+          >
+            <svg
+              class="sc-1pf3x8a-0 iEHpIU"
+              fill="none"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.927 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69l-8.14-5.17a.998.998 0 0 0-1.54.84z"
+                fill="#000"
+                fill-opacity=".54"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="sc-ysclju-0 eRdnVw"
+        >
+          <h4
+            class="sc-1ntgl3l-0 jPeJxZ sc-ysclju-8 jddxpz"
+            data-tooltip-id="Getting Started with SkillWatch Setup-card-label"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Medium"
+          >
+            Getting Started with SkillWatch Setup
+          </h4>
+          <button
+            class="sc-1qiq5dc-0 bBZDuT sc-ysclju-10 wdhtS"
+            color="#eff9ff"
+            textcolor="#3872d2"
+            variant="solid"
+          >
+            <span
+              class="sc-1ntgl3l-0 hGagSU"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              Setup
+            </span>
+          </button>
+          <span
+            class="sc-1ntgl3l-0 hGagSU sc-ysclju-9 VkrDH"
+            data-tooltip-id="Getting Started with SkillWatch Setup-card-description"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Regular"
+          >
+            A simple guide to setting up your company
+          </span>
+          <div
+            class="sc-groybc-2 fQSnmt"
+            gap="0"
+          >
+            <button
+              class="sc-1qiq5dc-0 hmnFUL sc-ysclju-10 bmgBhz"
+              color="#F3F4F6"
+              variant="solid"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                #Company
+              </span>
+            </button>
+          </div>
+          <div
+            class="sc-ysclju-3 EYlFI"
+          >
+            <span
+              class="sc-1ntgl3l-0 fwKzLl"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="body3"
+            >
+              100
+               views
+            </span>
+            <button
+              class="sc-1k2druj-0 eLgfbc"
+              edges="square"
+              type="button"
+              variant="solid"
+            >
+              <span
+                class="sc-1ntgl3l-0 eOsHHD"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="button1"
+              >
+                Watch Now
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        alignitems="left"
+        backgroundcolor="#ffffff"
+        borderradius="0.8rem"
+        class="sc-gr411i-0 XbrlJ sc-groybc-0 iOwCrz"
+        display="flex"
+        flex="1"
+        flowdirection="vertical"
+        padding="[object Object]"
+        separatorcolor="#98A7B7"
+        shadowcolor="#b0bcc8"
+        variant="solid"
+      >
+        <div
+          class="sc-ysclju-4 cnWXyj"
+        >
+          <img
+            alt="video"
+            class="sc-ysclju-5 hJFxSB"
+            src="/thumbnails/tutorial1.jpg"
+          />
+          <div
+            class="sc-ysclju-6 mPJQr"
+          />
+          <div
+            class="sc-ysclju-7 hLjIhT"
+          >
+            <svg
+              class="sc-1pf3x8a-0 iEHpIU"
+              fill="none"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.927 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69l-8.14-5.17a.998.998 0 0 0-1.54.84z"
+                fill="#000"
+                fill-opacity=".54"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="sc-ysclju-0 eRdnVw"
+        >
+          <h4
+            class="sc-1ntgl3l-0 jPeJxZ sc-ysclju-8 jddxpz"
+            data-tooltip-id="Giving Feedback the Right Way-card-label"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+            textweight="Medium"
+          >
+            Giving Feedback the Right Way
+          </h4>
+          <button
+            class="sc-1qiq5dc-0 cDBGCD sc-ysclju-10 birZqq"
+            color="#F2A14226"
+            textcolor="#C0741A"
+            variant="solid"
+          >
+            <span
+              class="sc-1ntgl3l-0 hGagSU"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              360-degree Feedback
+            </span>
+          </button>
+          <span
+            class="sc-1ntgl3l-0 hGagSU sc-ysclju-9 VkrDH"
+            data-tooltip-id="Giving Feedback the Right Way-card-description"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Regular"
+          >
+            Leave impactful feedback
+          </span>
+          <div
+            class="sc-groybc-2 fQSnmt"
+            gap="0"
+          >
+            <button
+              class="sc-1qiq5dc-0 hmnFUL sc-ysclju-10 bmgBhz"
+              color="#F3F4F6"
+              variant="solid"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                #Peer Feedback
+              </span>
+            </button>
+          </div>
+          <div
+            class="sc-ysclju-3 EYlFI"
+          >
+            <span
+              class="sc-1ntgl3l-0 fwKzLl"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="body3"
+            >
+              100
+               views
+            </span>
+            <button
+              class="sc-1k2druj-0 eLgfbc"
+              edges="square"
+              type="button"
+              variant="solid"
+            >
+              <span
+                class="sc-1ntgl3l-0 eOsHHD"
+                textalign="initial"
+                textcolor="inherit"
+                textvariant="button1"
+              >
+                Watch Now
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

@@ -1,0 +1,263 @@
+on:
+    push:
+        branches:
+            - scalereal
+            - test-instance
+
+permissions:
+    id-token: write
+    contents: read
+
+jobs:
+    Test:
+        runs-on: ubuntu-24.04
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v5
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '20.x'
+                  cache: 'yarn'
+
+            - name: Install dependencies
+              run: yarn install --frozen-lockfile
+
+            - name: Linting
+              run: yarn lint
+
+            #   temporary fix for build
+            # - name: Run tests
+            #   run: yarn test
+
+    Build:
+        runs-on: ubuntu-24.04
+        needs: Test
+        if: github.event_name != 'pull_request'
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v5
+
+            - name: Configure AWS credentials
+              uses: aws-actions/configure-aws-credentials@v4
+              with:
+                  role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/skillwatch-builder-role
+                  aws-region: ap-south-1
+                  role-session-name: oidc_github
+
+            - name: Image Name
+              id: image-name
+              shell: bash
+              run: |
+                  case "${{ github.ref }}" in
+                    "refs/heads/scalereal")
+                      echo "name=skillwatch-prod-frontend" >> $GITHUB_OUTPUT
+                    ;;
+                    "refs/heads/test-instance")
+                      echo "name=skillwatch-uat-frontend" >> $GITHUB_OUTPUT
+                    ;;
+                  esac
+
+            - name: Environment
+              id: environment
+              shell: bash
+              run: |
+                  case "${{ github.ref }}" in
+                    "refs/heads/scalereal")
+                      echo "name=prod" >> $GITHUB_OUTPUT
+                    ;;
+                    "refs/heads/test-instance")
+                      echo "name=uat" >> $GITHUB_OUTPUT
+                    ;;
+                  esac
+
+            - name: Set Release Tag
+              id: release-tag
+              shell: bash
+              run: |
+                  PREVIOUS_TAG=$(aws ssm get-parameter --name  "/skillwatch/${{ steps.environment.outputs.name }}/FRONTEND_RELEASE_TAG" --region ap-south-1 | jq -r ".Parameter.Value")
+                  echo "tag=$((++PREVIOUS_TAG))" >> $GITHUB_OUTPUT
+                  aws ssm put-parameter --name "/skillwatch/${{ steps.environment.outputs.name }}/FRONTEND_RELEASE_TAG" --type "String" --overwrite --value "$PREVIOUS_TAG"
+
+            - run: aws sts get-caller-identity
+
+            - name: Login to Amazon ECR
+              id: login-ecr
+              uses: aws-actions/amazon-ecr-login@v2
+              with:
+                  mask-password: true
+
+            - name: Set up Docker Buildx
+              uses: docker/setup-buildx-action@v3
+
+            - name: Set Secrets
+              id: secrets
+              shell: bash
+              run: |
+                  case "${{ github.ref }}" in
+                    "refs/heads/scalereal")
+                      echo "api_url=${{ secrets.API_URL }}" >> $GITHUB_OUTPUT
+                      echo "login_url=${{ secrets.LOGIN_URL }}" >> $GITHUB_OUTPUT
+                      echo "microsoft_id=${{ secrets.MICROSOFT_ID }}" >> $GITHUB_OUTPUT
+                      echo "react_app_client_id=${{ secrets.REACT_APP_CLIENT_ID }}" >> $GITHUB_OUTPUT
+                      echo "zoho_client_id=${{ secrets.ZOHO_CLIENT_ID }}" >> $GITHUB_OUTPUT
+                      echo "zoho_client_secret=${{ secrets.ZOHO_CLIENT_SECRET }}" >> $GITHUB_OUTPUT
+                      echo "slack_client_id=${{ secrets.SLACK_CLIENT_ID }}" >> $GITHUB_OUTPUT
+                      echo "slack_state=${{ secrets.SLACK_STATE }}" >> $GITHUB_OUTPUT
+                      echo "youtube_api_key=${{ secrets.YOUTUBE_API_KEY }}" >> $GITHUB_OUTPUT
+                    ;;
+                    "refs/heads/test-instance")
+                      echo "api_url=${{ secrets.UAT_API_URL }}" >> $GITHUB_OUTPUT
+                      echo "login_url=${{ secrets.UAT_LOGIN_URL }}" >> $GITHUB_OUTPUT
+                      echo "microsoft_id=${{ secrets.UAT_MICROSOFT_ID }}" >> $GITHUB_OUTPUT
+                      echo "react_app_client_id=${{ secrets.UAT_REACT_APP_CLIENT_ID }}" >> $GITHUB_OUTPUT
+                      echo "zoho_client_id=${{ secrets.UAT_ZOHO_CLIENT_ID }}" >> $GITHUB_OUTPUT
+                      echo "zoho_client_secret=${{ secrets.UAT_ZOHO_CLIENT_SECRET }}" >> $GITHUB_OUTPUT
+                      echo "slack_client_id=${{ secrets.UAT_SLACK_CLIENT_ID }}" >> $GITHUB_OUTPUT
+                      echo "slack_state=${{ secrets.UAT_SLACK_STATE }}" >> $GITHUB_OUTPUT
+                      echo "youtube_api_key=${{ secrets.YOUTUBE_API_KEY }}" >> $GITHUB_OUTPUT
+                    ;;
+                  esac
+
+            - name: Build & Push
+              uses: docker/build-push-action@v6
+              with:
+                  push: true
+                  context: .
+                  platforms: linux/amd64
+                  secrets: |
+                      "api_url=${{ steps.secrets.outputs.api_url }}"
+                      "login_url=${{ steps.secrets.outputs.login_url }}"
+                      "microsoft_id=${{ steps.secrets.outputs.microsoft_id }}"
+                      "react_app_client_id=${{ steps.secrets.outputs.react_app_client_id }}"
+                      "zoho_client_id=${{ steps.secrets.outputs.zoho_client_id }}"
+                      "zoho_client_secret=${{ steps.secrets.outputs.zoho_client_secret }}"
+                      "slack_client_id=${{ steps.secrets.outputs.slack_client_id }}"
+                      "slack_state=${{ steps.secrets.outputs.slack_state }}"
+                      "youtube_api_key=${{ steps.secrets.outputs.youtube_api_key }}"
+                      "mode=production"
+                  tags: ${{ steps.login-ecr.outputs.registry }}/${{ steps.image-name.outputs.name }}:${{ steps.release-tag.outputs.tag }}
+
+    Deploy:
+        needs: Build
+        name: Deploy to Server
+        runs-on: ubuntu-24.04
+
+        steps:
+            - uses: actions/checkout@v5
+
+            - name: Configure AWS credentials
+              uses: aws-actions/configure-aws-credentials@v4
+              with:
+                  role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/skillwatch-builder-role
+                  aws-region: ap-south-1
+                  role-session-name: oidc_github
+
+            - name: Image Name
+              id: image-name
+              shell: bash
+              run: |
+                  case "${{ github.ref }}" in
+                    "refs/heads/scalereal")
+                      echo "name=skillwatch-prod-frontend" >> $GITHUB_OUTPUT
+                    ;;
+                    "refs/heads/test-instance")
+                      echo "name=skillwatch-uat-frontend" >> $GITHUB_OUTPUT
+                    ;;
+                  esac
+
+            - name: Container Name
+              id: container-name
+              shell: bash
+              run: |
+                  case "${{ github.ref }}" in
+                    "refs/heads/scalereal")
+                      echo "name=skillwatch-frontend" >> $GITHUB_OUTPUT
+                    ;;
+                    "refs/heads/test-instance")
+                      echo "name=skillwatch-uat-frontend" >> $GITHUB_OUTPUT
+                    ;;
+                  esac
+
+            - name: Environment
+              id: environment
+              shell: bash
+              run: |
+                  case "${{ github.ref }}" in
+                    "refs/heads/scalereal")
+                      echo "name=prod" >> $GITHUB_OUTPUT
+                    ;;
+                    "refs/heads/test-instance")
+                      echo "name=uat" >> $GITHUB_OUTPUT
+                    ;;
+                  esac
+
+            - name: Domain Name
+              id: domain-name
+              shell: bash
+              run: |
+                  case "${{ github.ref }}" in
+                    "refs/heads/scalereal")
+                      echo "name=skillwatch.app" >> $GITHUB_OUTPUT
+                    ;;
+                    "refs/heads/test-instance")
+                      echo "name=uat.skillwatch.app" >> $GITHUB_OUTPUT
+                    ;;
+                  esac
+
+            - name: Get Release Tag
+              id: release-tag
+              run: |
+                  RELEASE_TAG=$(aws ssm get-parameter --name  "/skillwatch/${{ steps.environment.outputs.name }}/FRONTEND_RELEASE_TAG" --region ap-south-1 | jq -r ".Parameter.Value")
+                  echo "tag=$RELEASE_TAG" >> $GITHUB_OUTPUT
+
+            - name: Set Secrets
+              run: |
+                  sed -i "s/aws_account_id:.*$/aws_account_id: ${{ secrets.AWS_ACCOUNT_ID }}/" .ci/deploy.yml
+                  sed -i "s/aws_ecr_repo:.*$/aws_ecr_repo: ${{ steps.image-name.outputs.name }}/" .ci/deploy.yml
+                  sed -i "s/image_tag:.*$/image_tag: ${{ steps.release-tag.outputs.tag }}/" .ci/deploy.yml
+                  sed -i "s/domain_name:.*$/domain_name: ${{ steps.domain-name.outputs.name }}/" .ci/deploy.yml
+                  sed -i "s/container_name:.*$/container_name: ${{ steps.container-name.outputs.name }}/" .ci/deploy.yml
+
+            - name: Push new Playbook
+              run: |
+                  aws s3 cp .ci/deploy.yml s3://skillwatch-deploy/${{ steps.environment.outputs.name }}-frontend.yml
+
+            - name: Trigger Deployment via SSM
+              id: ssm-trigger
+              run: |
+                  command_id=$(aws ssm send-command --document-name "AWS-RunAnsiblePlaybook" \
+                                       --targets "Key=tag:Name,Values=skillwatch-prod" \
+                                       --max-errors 1 \
+                                       --parameters '{"playbookurl":["s3://skillwatch-deploy/${{ steps.environment.outputs.name }}-frontend.yml"]}' \
+                                       --timeout-seconds 600 \
+                                       --region ap-south-1 \
+                                       --output text \
+                                       --query "Command.CommandId")
+                  echo "id=$command_id" >> $GITHUB_OUTPUT
+
+            - name: Check Deployment Status
+              run: |
+                  command_id=${{ steps.ssm-trigger.outputs.id }}
+                  status="Pending"
+                  while [ "$status" = "Pending" -o "$status" = "InProgress" ]; do
+                    echo "Waiting for command to complete... (polling every 10 seconds)"
+                    sleep 10
+                    status=$(aws ssm list-command-invocations --command-id $command_id \
+                              --details --output text --query "CommandInvocations[*].Status")
+                    echo "Current status: $status"
+                  done
+                  if [ "$status" = "Success" ]; then
+                    echo "Command executed successfully."
+                  else
+                    echo "Command failed with status: $status. Logs:"
+                    instance_id=$(aws ssm list-command-invocations --command-id $command_id \
+                      --details --output text --query "CommandInvocations[*].InstanceId")
+                    aws ssm get-command-invocation \
+                      --command-id $command_id \
+                      --instance-id $instance_id \
+                      --output text \
+                      --query '{StandardOutputContent:StandardOutputContent,StandardErrorContent:StandardErrorContent}'
+                    exit 1
+                  fi

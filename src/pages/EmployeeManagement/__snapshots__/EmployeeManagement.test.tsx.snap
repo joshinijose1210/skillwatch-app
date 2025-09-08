@@ -1,0 +1,1072 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Employee Management component should take snapshot 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Employees
+        </h3>
+      </div>
+      <div
+        class="sc-w8e7z6-3 rCDhx"
+      >
+        <button
+          class="sc-1k2druj-0 dsEKPA sc-w8e7z6-1"
+          edges="square"
+          type="button"
+          variant="outlined"
+        >
+          <span
+            class="sc-1ntgl3l-0 eOsHHD"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="button1"
+          >
+            Bulk Import
+          </span>
+        </button>
+        <button
+          class="sc-1k2druj-0 eLgfbc sc-w8e7z6-1"
+          edges="square"
+          type="button"
+          variant="solid"
+        >
+          <span
+            class="sc-1ntgl3l-0 eOsHHD"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="button1"
+          >
+            Add Employee
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="sc-1h7claq-0 jdWERm"
+    >
+      <div
+        class="sc-1cnun24-0 irVHrL sc-tkiih6-15 cvCOyL"
+        maxwidth="100%"
+        minwidth="25rem"
+      >
+        <input
+          class="sc-9l9lu7-0 lfgaXg"
+          data-testid="employeeSearch"
+          placeholder="Search Employee"
+          value=""
+        />
+        <span
+          class="sc-1lts63a-1 lckNMu"
+        >
+          <svg
+            class="sc-1pf3x8a-0 ivKmVS"
+            fill="none"
+            height="1em"
+            title="search icon"
+            viewBox="0 0 20 20"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.063 3.125a5.938 5.938 0 1 0 0 11.875 5.938 5.938 0 0 0 0-11.875zM1.875 9.063a7.187 7.187 0 1 1 12.692 4.621l3.375 3.374a.625.625 0 1 1-.884.884l-3.374-3.374A7.188 7.188 0 0 1 1.875 9.063z"
+              fill="#606878"
+              fill-rule="evenodd"
+              stroke="#606878"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width=".3"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="sc-1h7claq-1 kDdSbH"
+      >
+        <div
+          class="sc-11tbpdo-0 fpmwxR sc-tkiih6-14 gSveWN"
+          data-testid="departmentDropdown"
+          id="department-wrapper"
+          minwidth="25rem"
+          variant="outlined"
+        >
+          <div
+            class="sc-17d4s39-0 UfceN"
+            id="department-input-wrapper"
+            minwidth="25rem"
+          >
+            <div
+              class="sc-19px6zp-0 BrSGZ"
+              filled="[object Object]"
+              fusion="[object Object]"
+              minrows="1"
+              outlined="[object Object]"
+              textvariant="[object Object]"
+              variant="outlined"
+            >
+              <div
+                class="sc-lhr232-0 btNOKw"
+                variant="outlined"
+              >
+                <input
+                  aria-describedby="department-helper-text"
+                  autocomplete="off"
+                  class="sc-hb99wz-0 jaEbhp"
+                  data-tooltip-id="department-input"
+                  errortext=""
+                  id="department-input"
+                  inputsize="M"
+                  placeholder="Select Department"
+                  type="text"
+                  value=""
+                  variant="outlined"
+                />
+                <label
+                  class="sc-1du51u0-0 eMZrST"
+                  for="department-input"
+                  inputwidth="0"
+                  variant="outlined"
+                >
+                  Department
+                </label>
+              </div>
+              <div
+                class="sc-4vbg19-0 hFRmRP"
+                id="department-count"
+              >
+                <svg
+                  class="sc-1pf3x8a-0 klDMsE"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.792 14.97a1 1 0 0 1-1.584 0l-3.165-4.11a1 1 0 0 1 .793-1.61h6.328a1 1 0 0 1 .793 1.61l-3.165 4.11z"
+                    fill="#000"
+                  />
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div
+          class="sc-11tbpdo-0 fZqHTW sc-tkiih6-14 gSveWN"
+          data-testid="teamDropdown"
+          disabled=""
+          id="team-wrapper"
+          minwidth="25rem"
+          variant="outlined"
+        >
+          <div
+            class="sc-17d4s39-0 UfceN"
+            id="team-input-wrapper"
+            minwidth="25rem"
+          >
+            <div
+              class="sc-19px6zp-0 UwvIf"
+              disabled=""
+              filled="[object Object]"
+              fusion="[object Object]"
+              minrows="1"
+              outlined="[object Object]"
+              textvariant="[object Object]"
+              variant="outlined"
+            >
+              <div
+                class="sc-lhr232-0 btNOKw"
+                variant="outlined"
+              >
+                <input
+                  aria-describedby="team-helper-text"
+                  autocomplete="off"
+                  class="sc-hb99wz-0 jaEbhp"
+                  data-tooltip-id="team-input"
+                  disabled=""
+                  errortext=""
+                  id="team-input"
+                  inputsize="M"
+                  placeholder="Select Team"
+                  type="text"
+                  value=""
+                  variant="outlined"
+                />
+                <label
+                  class="sc-1du51u0-0 eMZrST"
+                  for="team-input"
+                  inputwidth="0"
+                  variant="outlined"
+                >
+                  Team
+                </label>
+              </div>
+              <div
+                class="sc-4vbg19-0 hFRmRP"
+                id="team-count"
+              >
+                <svg
+                  class="sc-1pf3x8a-0 klDMsE"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.792 14.97a1 1 0 0 1-1.584 0l-3.165-4.11a1 1 0 0 1 .793-1.61h6.328a1 1 0 0 1 .793 1.61l-3.165 4.11z"
+                    fill="#000"
+                  />
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div
+          class="sc-11tbpdo-0 fZqHTW sc-tkiih6-14 gSveWN"
+          data-testid="designationDropdown"
+          disabled=""
+          id="designation-wrapper"
+          minwidth="25rem"
+          variant="outlined"
+        >
+          <div
+            class="sc-17d4s39-0 UfceN"
+            id="designation-input-wrapper"
+            minwidth="25rem"
+          >
+            <div
+              class="sc-19px6zp-0 UwvIf"
+              disabled=""
+              filled="[object Object]"
+              fusion="[object Object]"
+              minrows="1"
+              outlined="[object Object]"
+              textvariant="[object Object]"
+              variant="outlined"
+            >
+              <div
+                class="sc-lhr232-0 btNOKw"
+                variant="outlined"
+              >
+                <input
+                  aria-describedby="designation-helper-text"
+                  autocomplete="off"
+                  class="sc-hb99wz-0 jaEbhp"
+                  data-tooltip-id="designation-input"
+                  disabled=""
+                  errortext=""
+                  id="designation-input"
+                  inputsize="M"
+                  placeholder="Select Designation"
+                  type="text"
+                  value=""
+                  variant="outlined"
+                />
+                <label
+                  class="sc-1du51u0-0 eMZrST"
+                  for="designation-input"
+                  inputwidth="0"
+                  variant="outlined"
+                >
+                  Designation
+                </label>
+              </div>
+              <div
+                class="sc-4vbg19-0 hFRmRP"
+                id="designation-count"
+              >
+                <svg
+                  class="sc-1pf3x8a-0 klDMsE"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.792 14.97a1 1 0 0 1-1.584 0l-3.165-4.11a1 1 0 0 1 .793-1.61h6.328a1 1 0 0 1 .793 1.61l-3.165 4.11z"
+                    fill="#000"
+                  />
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+        <div
+          class="sc-11tbpdo-0 fpmwxR sc-tkiih6-14 gSveWN"
+          data-testid="rolesDropdown"
+          id="role-wrapper"
+          minwidth="25rem"
+          variant="outlined"
+        >
+          <div
+            class="sc-17d4s39-0 UfceN"
+            id="role-input-wrapper"
+            minwidth="25rem"
+          >
+            <div
+              class="sc-19px6zp-0 BrSGZ"
+              filled="[object Object]"
+              fusion="[object Object]"
+              minrows="1"
+              outlined="[object Object]"
+              textvariant="[object Object]"
+              variant="outlined"
+            >
+              <div
+                class="sc-lhr232-0 btNOKw"
+                variant="outlined"
+              >
+                <input
+                  aria-describedby="role-helper-text"
+                  autocomplete="off"
+                  class="sc-hb99wz-0 jaEbhp"
+                  data-tooltip-id="role-input"
+                  errortext=""
+                  id="role-input"
+                  inputsize="M"
+                  placeholder="Select Role"
+                  type="text"
+                  value=""
+                  variant="outlined"
+                />
+                <label
+                  class="sc-1du51u0-0 eMZrST"
+                  for="role-input"
+                  inputwidth="0"
+                  variant="outlined"
+                >
+                  Role
+                </label>
+              </div>
+              <div
+                class="sc-4vbg19-0 hFRmRP"
+                id="role-count"
+              >
+                <svg
+                  class="sc-1pf3x8a-0 klDMsE"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.792 14.97a1 1 0 0 1-1.584 0l-3.165-4.11a1 1 0 0 1 .793-1.61h6.328a1 1 0 0 1 .793 1.61l-3.165 4.11z"
+                    fill="#000"
+                  />
+                </svg>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div
+      class="sc-8tbhpn-3"
+    >
+      <div
+        class="sc-1msmxxr-0 iWEzjW"
+      />
+      <table
+        actions=""
+        class="sc-1msmxxr-1 jwFsPF sc-8tbhpn-2 kCDmJI"
+        columns="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        defaultactivepage="1"
+        defaultsortorder="desc"
+        itemsperpage="10"
+        rowclickdisablekey=""
+        tabindex="-1"
+        totalitems="0"
+      >
+        <thead
+          class="sc-uxzsxp-0 haNltq"
+        >
+          <tr
+            class="sc-1jr91bg-0 hJzMcO"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+          >
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Employee ID
+                </span>
+                <svg
+                  class="sc-1pf3x8a-0 bMQNVa"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.229 6.935a1 1 0 0 1 1.543 0l2.208 2.679a1 1 0 0 1-.77 1.636H9.79a1 1 0 0 1-.77-1.636l2.209-2.679zM12.771 17.065a1 1 0 0 1-1.543 0L9.02 14.386a1 1 0 0 1 .772-1.636h4.418a1 1 0 0 1 .771 1.636l-2.209 2.679z"
+                    fill="#435465"
+                  />
+                </svg>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Name
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Department
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Team (Designation)
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Manager 1
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Manager 2
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Email
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Mobile
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Status
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Action
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="sc-c7cniy-0 kShdfA"
+        >
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="0"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="1"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="2"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="3"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="4"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+`;

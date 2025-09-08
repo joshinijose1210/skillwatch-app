@@ -1,0 +1,785 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Add Suggestion Form component should take suggestion component snapshot 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Add Suggestion
+        </h3>
+      </div>
+    </div>
+    <div
+      class="sc-nwb6cz-4 eljXoU"
+    >
+      <div
+        class="sc-tkiih6-9 bFDgcw form-division"
+      >
+        <div
+          class="sc-1wh81lg-1 cwMleO"
+        >
+          <div
+            class="sc-1wh81lg-0 RMuwJ"
+            editor="feedback"
+          >
+            <div
+              class="ql-toolbar ql-snow"
+            >
+              <span
+                class="ql-formats"
+              >
+                <button
+                  class="ql-bold"
+                  type="button"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <path
+                      class="ql-stroke"
+                      d="M5,4H9.5A2.5,2.5,0,0,1,12,6.5v0A2.5,2.5,0,0,1,9.5,9H5A0,0,0,0,1,5,9V4A0,0,0,0,1,5,4Z"
+                    />
+                     
+                    <path
+                      class="ql-stroke"
+                      d="M5,9h5.5A2.5,2.5,0,0,1,13,11.5v0A2.5,2.5,0,0,1,10.5,14H5a0,0,0,0,1,0,0V9A0,0,0,0,1,5,9Z"
+                    />
+                     
+                  </svg>
+                </button>
+                <button
+                  class="ql-italic"
+                  type="button"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="7"
+                      x2="13"
+                      y1="4"
+                      y2="4"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="5"
+                      x2="11"
+                      y1="14"
+                      y2="14"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="8"
+                      x2="10"
+                      y1="14"
+                      y2="4"
+                    />
+                     
+                  </svg>
+                </button>
+                <button
+                  class="ql-underline"
+                  type="button"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <path
+                      class="ql-stroke"
+                      d="M5,3V9a4.012,4.012,0,0,0,4,4H9a4.012,4.012,0,0,0,4-4V3"
+                    />
+                     
+                    <rect
+                      class="ql-fill"
+                      height="1"
+                      rx="0.5"
+                      ry="0.5"
+                      width="12"
+                      x="3"
+                      y="15"
+                    />
+                     
+                  </svg>
+                </button>
+                <button
+                  class="ql-strike"
+                  type="button"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <line
+                      class="ql-stroke ql-thin"
+                      x1="15.5"
+                      x2="2.5"
+                      y1="8.5"
+                      y2="9.5"
+                    />
+                     
+                    <path
+                      class="ql-fill"
+                      d="M9.007,8C6.542,7.791,6,7.519,6,6.5,6,5.792,7.283,5,9,5c1.571,0,2.765.679,2.969,1.309a1,1,0,0,0,1.9-.617C13.356,4.106,11.354,3,9,3,6.2,3,4,4.538,4,6.5a3.2,3.2,0,0,0,.5,1.843Z"
+                    />
+                     
+                    <path
+                      class="ql-fill"
+                      d="M8.984,10C11.457,10.208,12,10.479,12,11.5c0,0.708-1.283,1.5-3,1.5-1.571,0-2.765-.679-2.969-1.309a1,1,0,1,0-1.9.617C4.644,13.894,6.646,15,9,15c2.8,0,5-1.538,5-3.5a3.2,3.2,0,0,0-.5-1.843Z"
+                    />
+                     
+                  </svg>
+                </button>
+              </span>
+              <span
+                class="ql-formats"
+              >
+                <span
+                  class="ql-align ql-picker ql-icon-picker"
+                >
+                  <span
+                    aria-controls="ql-picker-options-0"
+                    aria-expanded="false"
+                    class="ql-picker-label"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <svg
+                      viewBox="0 0 18 18"
+                    >
+                       
+                      <line
+                        class="ql-stroke"
+                        x1="3"
+                        x2="15"
+                        y1="9"
+                        y2="9"
+                      />
+                       
+                      <line
+                        class="ql-stroke"
+                        x1="3"
+                        x2="13"
+                        y1="14"
+                        y2="14"
+                      />
+                       
+                      <line
+                        class="ql-stroke"
+                        x1="3"
+                        x2="9"
+                        y1="4"
+                        y2="4"
+                      />
+                       
+                    </svg>
+                  </span>
+                  <span
+                    aria-hidden="true"
+                    class="ql-picker-options"
+                    id="ql-picker-options-0"
+                    tabindex="-1"
+                  >
+                    <span
+                      class="ql-picker-item ql-selected"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <svg
+                        viewBox="0 0 18 18"
+                      >
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="3"
+                          x2="15"
+                          y1="9"
+                          y2="9"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="3"
+                          x2="13"
+                          y1="14"
+                          y2="14"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="3"
+                          x2="9"
+                          y1="4"
+                          y2="4"
+                        />
+                         
+                      </svg>
+                    </span>
+                    <span
+                      class="ql-picker-item"
+                      data-value="center"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <svg
+                        viewBox="0 0 18 18"
+                      >
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="15"
+                          x2="3"
+                          y1="9"
+                          y2="9"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="14"
+                          x2="4"
+                          y1="14"
+                          y2="14"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="12"
+                          x2="6"
+                          y1="4"
+                          y2="4"
+                        />
+                         
+                      </svg>
+                    </span>
+                    <span
+                      class="ql-picker-item"
+                      data-value="right"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <svg
+                        viewBox="0 0 18 18"
+                      >
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="15"
+                          x2="3"
+                          y1="9"
+                          y2="9"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="15"
+                          x2="5"
+                          y1="14"
+                          y2="14"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="15"
+                          x2="9"
+                          y1="4"
+                          y2="4"
+                        />
+                         
+                      </svg>
+                    </span>
+                    <span
+                      class="ql-picker-item"
+                      data-value="justify"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <svg
+                        viewBox="0 0 18 18"
+                      >
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="15"
+                          x2="3"
+                          y1="9"
+                          y2="9"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="15"
+                          x2="3"
+                          y1="14"
+                          y2="14"
+                        />
+                         
+                        <line
+                          class="ql-stroke"
+                          x1="15"
+                          x2="3"
+                          y1="4"
+                          y2="4"
+                        />
+                         
+                      </svg>
+                    </span>
+                  </span>
+                </span>
+                <select
+                  class="ql-align"
+                  style="display: none;"
+                >
+                  <option
+                    selected="selected"
+                  />
+                  <option
+                    value="center"
+                  />
+                  <option
+                    value="right"
+                  />
+                  <option
+                    value="justify"
+                  />
+                </select>
+              </span>
+              <span
+                class="ql-formats"
+              >
+                <button
+                  class="ql-list"
+                  type="button"
+                  value="ordered"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="7"
+                      x2="15"
+                      y1="4"
+                      y2="4"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="7"
+                      x2="15"
+                      y1="9"
+                      y2="9"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="7"
+                      x2="15"
+                      y1="14"
+                      y2="14"
+                    />
+                     
+                    <line
+                      class="ql-stroke ql-thin"
+                      x1="2.5"
+                      x2="4.5"
+                      y1="5.5"
+                      y2="5.5"
+                    />
+                     
+                    <path
+                      class="ql-fill"
+                      d="M3.5,6A0.5,0.5,0,0,1,3,5.5V3.085l-0.276.138A0.5,0.5,0,0,1,2.053,3c-0.124-.247-0.023-0.324.224-0.447l1-.5A0.5,0.5,0,0,1,4,2.5v3A0.5,0.5,0,0,1,3.5,6Z"
+                    />
+                     
+                    <path
+                      class="ql-stroke ql-thin"
+                      d="M4.5,10.5h-2c0-.234,1.85-1.076,1.85-2.234A0.959,0.959,0,0,0,2.5,8.156"
+                    />
+                     
+                    <path
+                      class="ql-stroke ql-thin"
+                      d="M2.5,14.846a0.959,0.959,0,0,0,1.85-.109A0.7,0.7,0,0,0,3.75,14a0.688,0.688,0,0,0,.6-0.736,0.959,0.959,0,0,0-1.85-.109"
+                    />
+                     
+                  </svg>
+                </button>
+                <button
+                  class="ql-list"
+                  type="button"
+                  value="bullet"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="6"
+                      x2="15"
+                      y1="4"
+                      y2="4"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="6"
+                      x2="15"
+                      y1="9"
+                      y2="9"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="6"
+                      x2="15"
+                      y1="14"
+                      y2="14"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="3"
+                      x2="3"
+                      y1="4"
+                      y2="4"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="3"
+                      x2="3"
+                      y1="9"
+                      y2="9"
+                    />
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="3"
+                      x2="3"
+                      y1="14"
+                      y2="14"
+                    />
+                     
+                  </svg>
+                </button>
+              </span>
+              <span
+                class="ql-formats"
+              >
+                <button
+                  class="ql-link"
+                  type="button"
+                >
+                  <svg
+                    viewBox="0 0 18 18"
+                  >
+                     
+                    <line
+                      class="ql-stroke"
+                      x1="7"
+                      x2="11"
+                      y1="7"
+                      y2="11"
+                    />
+                     
+                    <path
+                      class="ql-even ql-stroke"
+                      d="M8.9,4.577a3.476,3.476,0,0,1,.36,4.679A3.476,3.476,0,0,1,4.577,8.9C3.185,7.5,2.035,6.4,4.217,4.217S7.5,3.185,8.9,4.577Z"
+                    />
+                     
+                    <path
+                      class="ql-even ql-stroke"
+                      d="M13.423,9.1a3.476,3.476,0,0,0-4.679-.36,3.476,3.476,0,0,0,.36,4.679c1.392,1.392,2.5,2.542,4.679.36S14.815,10.5,13.423,9.1Z"
+                    />
+                     
+                  </svg>
+                </button>
+              </span>
+            </div>
+            <div
+              class="sc-1wh81lg-2 dPewCh ql-container ql-snow"
+              data-testid="textquill"
+            >
+              <div
+                class="ql-editor ql-blank"
+                contenteditable="true"
+                data-gramm="false"
+                data-placeholder="Write your suggestion to the Company here…"
+              >
+                <p>
+                  <br />
+                </p>
+              </div>
+              <div
+                class="ql-clipboard"
+                contenteditable="true"
+                tabindex="-1"
+              />
+              <div
+                class="ql-tooltip ql-hidden"
+              >
+                <a
+                  class="ql-preview"
+                  href="about:blank"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                />
+                <input
+                  data-formula="e=mc^2"
+                  data-link="https://quilljs.com"
+                  data-video="Embed URL"
+                  type="text"
+                />
+                <a
+                  class="ql-action"
+                />
+                <a
+                  class="ql-remove"
+                />
+              </div>
+            </div>
+            <div
+              class="sc-1wh81lg-3 dQvbgb"
+            >
+              0/1000
+            </div>
+            <span
+              class="sc-1ntgl3l-0 fbvXZC"
+              textalign="initial"
+              textcolor="red"
+              textvariant="body2"
+            />
+          </div>
+        </div>
+        <div
+          class="sc-b3y6fk-0 FlGOx"
+        >
+          <button
+            class="sc-1k2druj-0 dsEKPA"
+            disabled=""
+            edges="square"
+            type="button"
+            variant="outlined"
+          >
+            <span
+              class="sc-1ntgl3l-0 eOsHHD"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="button1"
+            >
+              Save as Draft
+            </span>
+          </button>
+          <button
+            class="sc-1k2druj-0 eLgfbc"
+            disabled=""
+            edges="square"
+            type="button"
+            variant="solid"
+          >
+            <svg
+              class="sc-1pf3x8a-0 bMQNVa"
+              fill="none"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.671 20.4l17.45-7.48a1 1 0 0 0 0-1.84L3.671 3.6a.993.993 0 0 0-1.39.91l-.01 4.61c0 .5.37.93.87.99L17.271 12l-14.13 1.88c-.5.07-.87.5-.87 1l.01 4.61c0 .71.73 1.2 1.39.91z"
+                fill="#000"
+                fill-opacity=".54"
+              />
+            </svg>
+            <span
+              class="sc-1ntgl3l-0 eOsHHD"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="button1"
+            >
+              Send
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-tkiih6-9 bFDgcw tips-division"
+      >
+        <div
+          class="sc-nwb6cz-6 dMrlDI"
+        >
+          <div
+            class="sc-nwb6cz-7 huhgwc"
+          >
+            <h3
+              class="sc-1ntgl3l-0 lhJlYH sc-tkiih6-22 isRtxH"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h3"
+              textweight="Strong"
+            >
+              Tips
+            </h3>
+            <div
+              class="sc-nwb6cz-5 hCAhW"
+            />
+          </div>
+          <strong
+            class="sc-1ntgl3l-0 dDvaST sc-14n5fqr-0 exTTfh"
+            style="font-size: 16px;"
+            textalign="initial"
+            textcolor="inherit"
+            textweight="Strong"
+          >
+            How to provide Thoughtful and Impactful Suggestions?
+          </strong>
+          <span
+            class="sc-1ntgl3l-0 hGagSU"
+            style="font-size: 14px;"
+            textalign="initial"
+            textcolor="inherit"
+          >
+            When providing suggestions to a company, it' essential to communicate effectively and offer constructive ideas.
+          </span>
+          <ul
+            class="sc-14n5fqr-1 jClipx"
+          >
+            <li
+              class="sc-14n5fqr-2 knCkgG"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                style="font-size: 14px;"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                <strong>
+                  Do Your Research:
+                </strong>
+                 Understand the company' goals, values, and current strategies before making suggestions. Research industry best practices to provide informed recommendations.
+              </span>
+            </li>
+            <li
+              class="sc-14n5fqr-2 knCkgG"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                style="font-size: 14px;"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                <strong>
+                  Be Clear and Concise:
+                </strong>
+                 Clearly articulate your suggestion in a concise manner to ensure easy understanding. Avoid unnecessary jargon or technical language that may confuse the audience.
+              </span>
+            </li>
+            <li
+              class="sc-14n5fqr-2 knCkgG"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                style="font-size: 14px;"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                <strong>
+                  Provide Context:
+                </strong>
+                 Explain the reasoning behind your suggestion. Clearly state the problem or opportunity that your suggestion addresses.
+              </span>
+            </li>
+            <li
+              class="sc-14n5fqr-2 knCkgG"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                style="font-size: 14px;"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                <strong>
+                  Consider Feasibility:
+                </strong>
+                 Ensure your suggestions are realistic and feasible within the company' resources, budget, and timeframe.
+              </span>
+            </li>
+            <li
+              class="sc-14n5fqr-2 knCkgG"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                style="font-size: 14px;"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                <strong>
+                  Focus on Benefits:
+                </strong>
+                 Emphasise the positive impact of your suggestion on the company' goals, efficiency, or team members.
+              </span>
+            </li>
+            <li
+              class="sc-14n5fqr-2 knCkgG"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                style="font-size: 14px;"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                <strong>
+                  Timing is Key:
+                </strong>
+                 Choose an appropriate time to present your suggestions. Avoid proposing major changes during critical periods or when the company is dealing with urgent issues.
+              </span>
+            </li>
+            <li
+              class="sc-14n5fqr-2 knCkgG"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU"
+                style="font-size: 14px;"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                <strong>
+                  Be Open to Feedback:
+                </strong>
+                 Welcome feedback, whether positive or critical. Use it as an opportunity to refine and improve your suggestions.
+              </span>
+            </li>
+          </ul>
+          <span
+            class="sc-1ntgl3l-0 hGagSU"
+            style="font-size: 14px;"
+            textalign="initial"
+            textcolor="inherit"
+          >
+            Example: "Advocate for a paperless office to reduce environmental impact and increase efficiency."
+          </span>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

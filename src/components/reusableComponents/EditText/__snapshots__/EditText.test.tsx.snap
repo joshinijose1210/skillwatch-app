@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditText component should take snapshot 1`] = `
+<div>
+  <a
+    class="sc-tw5c83-0 hMIDwL"
+  >
+    <h5
+      class="sc-1ntgl3l-0 bihyjF"
+      textalign="initial"
+      textcolor="inherit"
+      textvariant="h5"
+    >
+      Edit
+    </h5>
+  </a>
+</div>
+`;

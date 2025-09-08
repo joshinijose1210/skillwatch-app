@@ -1,0 +1,22 @@
+{
+    "gendersData": {
+        "gendersCount": {
+            "malesCount": 1,
+            "femalesCount": 0,
+            "othersCount": 13
+        },
+        "gendersPercentage": {
+            "malesPercentage": 7.142857142857142,
+            "femalesPercentage": 0.0,
+            "othersPercentage": 92.85714285714286
+        }
+    },
+    "averageTenure": {
+        "years": 0,
+        "months": 5
+    },
+    "averageAge": {
+        "years": 24,
+        "months": 9
+    }
+}

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingsHeader should render properly 1`] = `
+<div>
+  <div
+    class="sc-1t1ahfa-2 ebUScI"
+  >
+    <h4
+      class="sc-1ntgl3l-0 iEGCWU sc-1t1ahfa-3 gCnYIy"
+      textalign="initial"
+      textcolor="inherit"
+      textvariant="h4"
+    >
+      dummy Title
+    </h4>
+    <div
+      class="sc-1t1ahfa-1 jOrojb"
+    >
+      <div
+        bgcolor="#F64D6E26"
+        class="sc-1exx2co-0 sc-1t1ahfa-0 TPGAq cgZUsL"
+      >
+        <h2
+          class="sc-1ntgl3l-0 TyhST"
+          textalign="initial"
+          textcolor="#BC1435"
+          textvariant="h2"
+          textweight="Strong"
+        >
+          5
+        </h2>
+        <h4
+          class="sc-1ntgl3l-0 fgmHgf sc-1t1ahfa-4 jrLGQQ"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Regular"
+        >
+          dummy subtitle
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+`;

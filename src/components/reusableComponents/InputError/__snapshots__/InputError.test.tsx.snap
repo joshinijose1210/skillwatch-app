@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputError component should take snapshot 1`] = `
+<div>
+  <h5
+    class="sc-1ntgl3l-0 kDkvte"
+    textalign="center"
+    textcolor="red"
+    textvariant="h5"
+  />
+</div>
+`;

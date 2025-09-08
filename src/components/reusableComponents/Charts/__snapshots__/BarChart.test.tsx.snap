@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bar chart should render properly 1`] = `
+<div>
+  <div
+    class="sc-qgqgvp-7 wJwVI"
+  >
+    <div
+      class="sc-qgqgvp-8 cZRUgi"
+    >
+      1
+      <br />
+      <span>
+        Average
+      </span>
+    </div>
+    <div
+      style="width: 100%; height: 100%;"
+    />
+  </div>
+</div>
+`;

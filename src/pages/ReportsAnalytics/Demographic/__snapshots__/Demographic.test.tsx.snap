@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Demographic should render properly 1`] = `
+<div>
+  <div
+    class="sc-llmrdn-0 evKsbA"
+  >
+    <h4
+      class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+      textalign="initial"
+      textcolor="inherit"
+      textvariant="h4"
+    >
+      Demographic
+    </h4>
+    <div
+      class="sc-llmrdn-2 hBAaNE"
+    >
+      <div
+        class="sc-llmrdn-1 dKJLYy"
+      >
+        <div
+          class="sc-llmrdn-3 kjWyQI"
+        >
+          <svg
+            class="female"
+            fill="#333"
+            height="61"
+            viewBox="0 0 27 61"
+            width="27"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M26.765 42.89h-9.962v17.893H9.994V42.912H0c.224-.675.417-1.286.63-1.898 2.352-6.925 4.704-13.85 7.077-20.776.887-2.584 2.715-4.02 5.419-4.202a5.785 5.785 0 0 1 5.847 3.902c1.464 4.224 2.897 8.47 4.329 12.704 1.112 3.27 2.213 6.529 3.324 9.798.043.14.086.28.14.45zM13.383.447c3.292 0 5.985 2.68 5.975 5.95-.011 3.302-2.683 5.982-5.954 5.982-3.303 0-5.997-2.712-5.975-6.003A5.955 5.955 0 0 1 13.383.447z"
+              fill="#000"
+            />
+          </svg>
+          <div
+            class="sc-llmrdn-4 gQBmvU"
+          >
+            <div
+              bg="inherit"
+              borderradius="2"
+              class="sc-12ecrgm-0 eQSGuc"
+              color="black"
+              display="flex"
+              font-variant="body2"
+              px="4"
+              py="4"
+            >
+              <strong
+                class="sc-1ntgl3l-0 hSccqi value"
+                textalign="initial"
+                textcolor="#333"
+                textweight="Strong"
+              >
+                0
+              </strong>
+              <span
+                class="sc-1ntgl3l-0 ezeYxn sc-llmrdn-6 eZufyN value"
+                textalign="initial"
+                textcolor="inherit"
+                textweight="Light"
+              >
+                |
+              </span>
+              <strong
+                class="sc-1ntgl3l-0 hSccqi value"
+                textalign="initial"
+                textcolor="#333"
+                textweight="Strong"
+              >
+                0.0
+                %
+              </strong>
+            </div>
+            <span
+              class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+              textalign="initial"
+              textcolor="#666"
+            >
+              Female
+            </span>
+          </div>
+        </div>
+        <div
+          class="sc-llmrdn-3 kjWyQI"
+        >
+          <svg
+            class="male"
+            fill="#333"
+            height="60"
+            viewBox="0 0 18 60"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              clip-path="url(#clip0_1346_9876)"
+            >
+              <path
+                d="M17.99 37.516h-5.294V60H5.315V37.516H.02c0-.162-.021-.302-.021-.431V21.147c0-3.02.833-5.403 3.65-6.018.39-.086.79-.118 1.192-.118C7.617 15 10.392 15 13.168 15c2.879 0 4.133 1.952 4.709 4.907.082.398.113.808.113 1.207v16.402z"
+                fill="#000"
+              />
+            </g>
+            <path
+              d="M8.383.447c3.292 0 5.985 2.68 5.975 5.95-.011 3.302-2.683 5.982-5.954 5.982-3.303 0-5.997-2.712-5.975-6.003A5.955 5.955 0 0 1 8.383.447z"
+              fill="#000"
+            />
+            <defs>
+              <clippath
+                id="clip0_1346_9876"
+              >
+                <path
+                  d="M0 0h18v45H0z"
+                  fill="#fff"
+                  transform="translate(0 15)"
+                />
+              </clippath>
+            </defs>
+          </svg>
+          <div
+            class="sc-llmrdn-4 gQBmvU"
+          >
+            <div
+              bg="inherit"
+              borderradius="2"
+              class="sc-12ecrgm-0 eQSGuc"
+              color="black"
+              display="flex"
+              font-variant="body2"
+              px="4"
+              py="4"
+            >
+              <strong
+                class="sc-1ntgl3l-0 hSccqi value"
+                textalign="initial"
+                textcolor="#333"
+                textweight="Strong"
+              >
+                1
+              </strong>
+              <span
+                class="sc-1ntgl3l-0 ezeYxn sc-llmrdn-6 eZufyN value"
+                textalign="initial"
+                textcolor="inherit"
+                textweight="Light"
+              >
+                |
+              </span>
+              <strong
+                class="sc-1ntgl3l-0 hSccqi value"
+                textalign="initial"
+                textcolor="#333"
+                textweight="Strong"
+              >
+                7.1
+                %
+              </strong>
+            </div>
+            <span
+              class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+              textalign="initial"
+              textcolor="#666"
+            >
+              Male
+            </span>
+          </div>
+        </div>
+        <div
+          class="sc-llmrdn-3 kjWyQI"
+        >
+          <svg
+            class="other"
+            fill="none"
+            height="60"
+            viewBox="0 0 25 60"
+            width="25"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.692 41.085h10.677L16.8 19.402c-.799-1.86-3-3.87-7.8-3.87s-2.428 2.01-.642 3.016c-.779 7.542-.001 16.09-.27 22.123v1.005h-.01v18.101h5.615V41.085z"
+              fill="#000"
+            />
+            <path
+              d="M4.815 41.18v-.5H.5V21.7c0-1.483.205-2.746.71-3.698.491-.925 1.28-1.586 2.547-1.864.347-.077.71-.108 1.085-.108h3.647L7.51 59.277H4.815V41.18z"
+              fill="#000"
+              stroke="#000"
+            />
+            <path
+              d="M8.383.447c3.292 0 5.985 2.68 5.975 5.95-.011 3.302-2.683 5.982-5.954 5.982-3.303 0-5.997-2.712-5.975-6.003A5.955 5.955 0 0 1 8.383.447z"
+              fill="#000"
+            />
+            <path
+              d="M8 15h2v45H8V15z"
+              fill="#F7F9FD"
+            />
+          </svg>
+          <div
+            class="sc-llmrdn-4 gQBmvU"
+          >
+            <div
+              bg="inherit"
+              borderradius="2"
+              class="sc-12ecrgm-0 eQSGuc"
+              color="black"
+              display="flex"
+              font-variant="body2"
+              px="4"
+              py="4"
+            >
+              <strong
+                class="sc-1ntgl3l-0 hSccqi value"
+                textalign="initial"
+                textcolor="#333"
+                textweight="Strong"
+              >
+                13
+              </strong>
+              <span
+                class="sc-1ntgl3l-0 ezeYxn sc-llmrdn-6 eZufyN value"
+                textalign="initial"
+                textcolor="inherit"
+                textweight="Light"
+              >
+                |
+              </span>
+              <strong
+                class="sc-1ntgl3l-0 hSccqi value"
+                textalign="initial"
+                textcolor="#333"
+                textweight="Strong"
+              >
+                92.9
+                %
+              </strong>
+            </div>
+            <span
+              class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+              textalign="initial"
+              textcolor="#666"
+            >
+              Other
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-llmrdn-4 sc-llmrdn-5 gQBmvU cBypac"
+      >
+        <span
+          class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+          textalign="initial"
+          textcolor="#666"
+        >
+          Average Tenure
+        </span>
+        <div>
+          <div
+            bg="inherit"
+            borderradius="2"
+            class="sc-12ecrgm-0 eQSGuc"
+            color="black"
+            display="flex"
+            font-variant="body2"
+            px="4"
+            py="4"
+          >
+            <strong
+              class="sc-1ntgl3l-0 dDvaST value"
+              textalign="initial"
+              textcolor="inherit"
+              textweight="Strong"
+            >
+              0
+              .5
+            </strong>
+            <span
+              class="sc-1ntgl3l-0 hGagSU"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="body2"
+            >
+               
+            </span>
+            <span
+              class="sc-1ntgl3l-0 icUogw sc-llmrdn-7 hGZfnG"
+              textalign="initial"
+              textcolor="#666"
+              textvariant="body2"
+            >
+              year
+            </span>
+            <span
+              class="sc-1ntgl3l-0 hGagSU"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="body2"
+            >
+               
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-llmrdn-4 sc-llmrdn-5 gQBmvU cBypac"
+      >
+        <span
+          class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+          textalign="initial"
+          textcolor="#666"
+        >
+          Average Age
+        </span>
+        <div>
+          <div
+            bg="inherit"
+            borderradius="2"
+            class="sc-12ecrgm-0 eQSGuc"
+            color="black"
+            display="flex"
+            font-variant="body2"
+            px="4"
+            py="4"
+          >
+            <strong
+              class="sc-1ntgl3l-0 dDvaST value"
+              textalign="initial"
+              textcolor="inherit"
+              textweight="Strong"
+            >
+              24
+              .9
+            </strong>
+            <span
+              class="sc-1ntgl3l-0 hGagSU"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="body2"
+            >
+               
+            </span>
+            <span
+              class="sc-1ntgl3l-0 icUogw sc-llmrdn-7 hGZfnG"
+              textalign="initial"
+              textcolor="#666"
+              textvariant="body2"
+            >
+              years
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+---
+- name: Deploy to Docker
+  hosts: all
+  vars:
+    aws_account_id:
+    aws_ecr_repo:
+    image_tag:
+    container_name:
+    domain_name:
+
+  tasks:
+    - name: Login into ECR
+      shell: aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin {{aws_account_id}}.dkr.ecr.ap-south-1.amazonaws.com
+
+    - name: Pulling the image from ECR
+      shell: docker pull "{{aws_account_id}}.dkr.ecr.ap-south-1.amazonaws.com/{{aws_ecr_repo}}:{{image_tag}}"
+
+    - name: Delete existing Backend container if it exists
+      shell: docker container rm -f {{container_name}}
+      ignore_errors: yes
+
+    - name: Deploying the Backend app container on the server
+      shell: docker run --network nat-network --name {{container_name}} --restart=unless-stopped -d -l traefik.enable=true -l traefik.http.routers.{{container_name}}.rule='Host(`{{domain_name}}`) && PathPrefix(`/app`)' -l traefik.http.routers.{{container_name}}.entrypoints=websecure -l traefik.http.routers.{{container_name}}.tls.certResolver=letsencrypt -l traefik.http.routers.{{container_name}}.service="{{container_name}}-svc" -l traefik.http.services.{{container_name}}-svc.loadbalancer.server.port="8080" "{{aws_account_id}}.dkr.ecr.ap-south-1.amazonaws.com/{{aws_ecr_repo}}:{{image_tag}}"
+
+    - name: Remove all unwanted images
+      shell: docker system prune -fa

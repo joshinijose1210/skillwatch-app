@@ -1,0 +1,24 @@
+export type CustomColorsType = {
+    positive: string;
+    positiveGraphColor: string;
+    improvement: string;
+    appreciation: string;
+    anlyticsPageCardBackground: string;
+    tipsSectionDefaultBackgroundColor: string;
+    appreciationGraphColor: string;
+    unacceptable: string;
+    exceedsExpectations: string;
+    defaultChartColor: string;
+    badgeGreyBgColor: string;
+    badgeTypoColor: string;
+    completedColor: string;
+    inProgressColor: string;
+    pendingColor: string;
+    ratingBgColor: string;
+    consultantsColor: string;
+    ToDoColor: string;
+    kpiRowHighlightColor: string;
+    viewBlueColor: string;
+    fullGrey: string;
+    borderColor: string;
+};

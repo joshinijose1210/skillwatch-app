@@ -1,0 +1,1 @@
+export { AverageRatingFormatter } from './AverageRatingFormatter';

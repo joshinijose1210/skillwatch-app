@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Department Management should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Departments
+        </h3>
+      </div>
+      <button
+        class="sc-1k2druj-0 eLgfbc sc-w8e7z6-1"
+        edges="square"
+        type="button"
+        variant="solid"
+      >
+        <span
+          class="sc-1ntgl3l-0 eOsHHD"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="button1"
+        >
+          Add Department
+        </span>
+      </button>
+    </div>
+    <div
+      class="sc-1h7claq-0 jdWERm"
+    >
+      <div
+        class="sc-1cnun24-0 irVHrL sc-tkiih6-15 cvCOyL"
+        maxwidth="100%"
+        minwidth="25rem"
+      >
+        <input
+          class="sc-9l9lu7-0 lfgaXg"
+          data-testid="searchbox"
+          placeholder="Search Department"
+        />
+        <span
+          class="sc-1lts63a-1 lckNMu"
+        >
+          <svg
+            class="sc-1pf3x8a-0 ivKmVS"
+            fill="none"
+            height="1em"
+            title="search icon"
+            viewBox="0 0 20 20"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.063 3.125a5.938 5.938 0 1 0 0 11.875 5.938 5.938 0 0 0 0-11.875zM1.875 9.063a7.187 7.187 0 1 1 12.692 4.621l3.375 3.374a.625.625 0 1 1-.884.884l-3.374-3.374A7.188 7.188 0 0 1 1.875 9.063z"
+              fill="#606878"
+              fill-rule="evenodd"
+              stroke="#606878"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width=".3"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+    <div
+      class="sc-8tbhpn-3"
+    >
+      <div
+        class="sc-1msmxxr-0 iWEzjW"
+      />
+      <table
+        actions=""
+        class="sc-1msmxxr-1 jwFsPF sc-8tbhpn-2 kCDmJI"
+        columns="[object Object],[object Object],[object Object],[object Object],[object Object]"
+        defaultactivepage="1"
+        defaultsortorder="desc"
+        itemsperpage="10"
+        rowclickdisablekey=""
+        tabindex="-1"
+        totalitems="0"
+      >
+        <thead
+          class="sc-uxzsxp-0 haNltq"
+        >
+          <tr
+            class="sc-1jr91bg-0 hJzMcO"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+          >
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Department ID
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Department
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Created on
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Status
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+            <th
+              class="sc-hjmm4m-0 iOyNiA"
+              tablesize="M"
+            >
+              <button
+                class="sc-hjmm4m-2 kpjakb"
+                tablesize="M"
+              >
+                <span
+                  class="sc-1ntgl3l-0 ghpJwn"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Action
+                </span>
+              </button>
+              <span
+                class="sc-hjmm4m-1 cuEDpa"
+              />
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="sc-c7cniy-0 kShdfA"
+        >
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="0"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="1"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="2"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="3"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+          <tr
+            class="sc-1yxujaa-0 bgyIwA"
+            gridtemplatecolumns=" minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr)"
+            style="grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);"
+            tabindex="4"
+          >
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+            <td
+              class="sc-1e51eaa-0 hFOqbY"
+              tablesize="M"
+            >
+              <div
+                class="sc-15vbyef-0 bHPECM"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+`;

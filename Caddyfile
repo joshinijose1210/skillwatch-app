@@ -1,0 +1,7 @@
+:8080 {
+    handle /app/* {
+        root /app/* /var/www/html
+        try_files {path} {path}.html /app/index.html
+        file_server
+    }
+}

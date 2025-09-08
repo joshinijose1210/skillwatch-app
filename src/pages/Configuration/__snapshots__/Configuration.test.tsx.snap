@@ -1,0 +1,490 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Company configuration page should take snapshot of loaded page and show current company information without logo 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Company
+        </h3>
+      </div>
+    </div>
+    <div
+      class="sc-zzdsm5-11 sc-1gx4ncs-2 klTTJe jWuxCF"
+    >
+      <div
+        class="sc-1gx4ncs-15 dvVAZc"
+      >
+        <div
+          class="sc-1gx4ncs-16 gKFYmr"
+        >
+          <span
+            class="sc-1ntgl3l-0 dhgrkE sc-1gx4ncs-18 iFlcGX"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="body1"
+          >
+            Organisation Id: 
+            <span
+              class="sc-1ntgl3l-0 gPMgWC"
+              textalign="initial"
+              textcolor="inherit"
+              textweight="Medium"
+            >
+              1
+            </span>
+          </span>
+          <span
+            class="sc-1ntgl3l-0 dhgrkE sc-1gx4ncs-18 iFlcGX"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="body1"
+          >
+            Active Users: 
+            <span
+              class="sc-1ntgl3l-0 gPMgWC"
+              textalign="initial"
+              textcolor="inherit"
+              textweight="Medium"
+            >
+              6
+            </span>
+          </span>
+          <span
+            class="sc-1ntgl3l-0 dhgrkE sc-1gx4ncs-18 iFlcGX"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="body1"
+          >
+            Inactive Users: 
+            <span
+              class="sc-1ntgl3l-0 gPMgWC"
+              textalign="initial"
+              textcolor="inherit"
+              textweight="Medium"
+            >
+              0
+            </span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="sc-17d4s39-0 fGqzZg sc-tkiih6-12 sc-1gx4ncs-4 dmAbRN edQmLW"
+        id="COMPANY_NAME-input-wrapper"
+        minwidth="20rem"
+      >
+        <div
+          class="sc-19px6zp-0 UwvIf"
+          disabled=""
+          filled="[object Object]"
+          fusion="[object Object]"
+          minrows="1"
+          outlined="[object Object]"
+          textvariant="[object Object]"
+          variant="outlined"
+        >
+          <div
+            class="sc-lhr232-0 btNOKw"
+            variant="outlined"
+          >
+            <input
+              aria-describedby="COMPANY_NAME-helper-text"
+              class="sc-hb99wz-0 jaEbhp"
+              data-testid="companyNameInput"
+              disabled=""
+              errortext=""
+              id="COMPANY_NAME-input"
+              inputsize="M"
+              placeholder=" "
+              type="text"
+              value="CompanyOne"
+              variant="outlined"
+            />
+            <label
+              class="sc-1du51u0-0 eMZrST"
+              for="COMPANY_NAME-input"
+              inputwidth="0"
+              variant="outlined"
+            >
+              Company Name
+            </label>
+          </div>
+        </div>
+        
+      </div>
+      <div
+        class="sc-1gx4ncs-10 fJiBRO"
+      >
+        <div
+          class="sc-1fl0hxw-0 aTIXC"
+          component="Configuration"
+          disabled=""
+        >
+          <div
+            class=" react-tel-input "
+          >
+            <div
+              class="special-label"
+            >
+              Phone
+            </div>
+            <input
+              class="form-control "
+              disabled=""
+              placeholder="Contact Number"
+              type="tel"
+              value="+91 91828-48361"
+            />
+            <div
+              class="flag-dropdown "
+            >
+              <div
+                aria-haspopup="listbox"
+                class="selected-flag"
+                role="button"
+                tabindex="0"
+                title="India: + 91"
+              >
+                <div
+                  class="flag in"
+                >
+                  <div
+                    class="arrow"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+           
+        </div>
+        <span
+          class="sc-1gx4ncs-11 jXuONC"
+        />
+      </div>
+      <div
+        class="sc-1hcsztp-0 jtzMlh sc-tkiih6-13 sc-1gx4ncs-19 cecHDR iJZdmz"
+        id="timezone-wrapper"
+        minwidth="25rem"
+        variant="outlined"
+      >
+        <div
+          class="sc-17d4s39-0 UfceN"
+          id="timezone-input-wrapper"
+          minwidth="25rem"
+        >
+          <div
+            class="sc-19px6zp-0 BrSGZ"
+            filled="[object Object]"
+            fusion="[object Object]"
+            minrows="1"
+            outlined="[object Object]"
+            textvariant="[object Object]"
+            variant="outlined"
+          >
+            <div
+              class="sc-lhr232-0 btNOKw"
+              variant="outlined"
+            >
+              <input
+                aria-describedby="timezone-helper-text"
+                autocomplete="off"
+                class="sc-hb99wz-0 jaEbhp"
+                errortext=""
+                id="timezone-input"
+                inputsize="M"
+                placeholder="Select Company's Timezone"
+                type="text"
+                value=""
+                variant="outlined"
+              />
+              <label
+                class="sc-1du51u0-0 eMZrST"
+                for="timezone-input"
+                inputwidth="0"
+                variant="outlined"
+              >
+                Timezone
+              </label>
+            </div>
+            <svg
+              class="sc-1pf3x8a-0 klDMsE sc-dynlvq-0 bdmviR"
+              fill="none"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.792 14.97a1 1 0 0 1-1.584 0l-3.165-4.11a1 1 0 0 1 .793-1.61h6.328a1 1 0 0 1 .793 1.61l-3.165 4.11z"
+                fill="#000"
+              />
+            </svg>
+          </div>
+          
+        </div>
+      </div>
+      <div
+        class="sc-1gx4ncs-3 fAmxyw"
+      >
+        <div
+          class="sc-1gx4ncs-5 jtbaWJ"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-1gx4ncs-6 dObUVQ"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+          >
+            Upload Company Logo :
+          </h4>
+          <div
+            class="sc-14diotp-4 kELNNF"
+          >
+            <div
+              class="sc-14diotp-3 eyQRCT"
+              role="presentation"
+              tabindex="0"
+            >
+              <img
+                alt="upload"
+                class="sc-14diotp-6 cIgHdk"
+                src="[object Object]"
+              />
+              <label
+                class="sc-14diotp-2 bgzcdi"
+                id="button"
+              >
+                 Drop File or Upload File here.
+              </label>
+              <input
+                accept="image/svg,.svg,.png"
+                class="sc-14diotp-1 jZvqTL"
+                data-testid="dropLogo"
+                multiple=""
+                style="border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: 0px -1px -1px 0px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap;"
+                tabindex="-1"
+                type="file"
+              />
+            </div>
+            
+            <em
+              class="sc-14diotp-7"
+            >
+              (Only .svg and .png file will be accepted)
+            </em>
+          </div>
+        </div>
+        <div
+          class="sc-1gx4ncs-7 GaCcE"
+        >
+          <div
+            class="sc-1gx4ncs-8 gOZXTk"
+          >
+            <svg
+              class="sc-1pf3x8a-0 fYFAcU"
+              fill="none"
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M18 4h1c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1V3c0-.55.45-1 1-1s1 .45 1 1v1h8V3c0-.55.45-1 1-1s1 .45 1 1v1zM8 11h8c.55 0 1 .45 1 1s-.45 1-1 1H8c-.55 0-1-.45-1-1s.45-1 1-1zm10 9H6c-.55 0-1-.45-1-1V9h14v10c0 .55-.45 1-1 1zM8 15h5c.55 0 1 .45 1 1s-.45 1-1 1H8c-.55 0-1-.45-1-1s.45-1 1-1z"
+                fill="#000"
+                fill-opacity=".54"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <h3
+              class="sc-1ntgl3l-0 lhJlYH sc-tkiih6-22 isRtxH"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h3"
+              textweight="Strong"
+            >
+              Notes:
+            </h3>
+          </div>
+          <ul
+            class="sc-1gx4ncs-9 jaguPm"
+          >
+            <li
+              class="sc-1ntgl3l-0 iDGDWd"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              The logo should only be in SVG and PNG format.
+            </li>
+            <li
+              class="sc-1ntgl3l-0 iDGDWd"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              The logo in PNG or SVG format should be of minimum height of 25px and a minimum width of 25px.
+            </li>
+            <li
+              class="sc-1ntgl3l-0 iDGDWd"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              The File size should be maximum 512 KB.
+            </li>
+            <li
+              class="sc-1ntgl3l-0 iDGDWd"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              Make sure the logo is landscape, and has no whitespace around it.
+            </li>
+            <li
+              class="sc-1ntgl3l-0 iDGDWd"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              The logo that will be uploaded, will reflect on the top left corner of the page, throughout the application, instead of Organisation Name.
+            </li>
+            <li
+              class="sc-1ntgl3l-0 iDGDWd"
+              textalign="initial"
+              textcolor="inherit"
+            >
+              If you have whitespace in the logo, remove it by using
+               
+              <a
+                class="sc-iayd5c-0 hssINh"
+                href="https://svgcrop.com/"
+                target="_blank"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  svgcrop tool
+                </span>
+              </a>
+               
+              for SVG and
+               
+              <a
+                class="sc-iayd5c-0 hssINh"
+                href="https://www.remove.bg/"
+                target="_blank"
+              >
+                <span
+                  class="sc-1ntgl3l-0 hGagSU"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  remove.bg tool
+                </span>
+              </a>
+               
+              for PNG format.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="sc-1gx4ncs-0 jypDwj"
+      >
+        <button
+          class="sc-1k2druj-0 eLgfbc sc-1gx4ncs-1 kMvWqq"
+          data-testid="saveButton"
+          disabled=""
+          edges="square"
+          type="button"
+          variant="solid"
+        >
+          <span
+            class="sc-1ntgl3l-0 eOsHHD"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="button1"
+          >
+            Save
+          </span>
+        </button>
+      </div>
+    </div>
+  </main>
+</div>
+`;
+
+exports[`Company configuration page should take snapshot of loader 1`] = `
+<div>
+  <div
+    class="sc-mbkfkf-0 KnoHL"
+  >
+    <main
+      class="sc-1ehavxz-0 dDyhBJ"
+    >
+      <div
+        class="sc-6d0kjn-0 dkGZbP"
+      >
+        <svg
+          class="sc-433e5x-0 dVjAFq"
+          height="1em"
+          viewBox="0 0 100 100"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="2s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+          <path
+            d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="1s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="-360 50 50"
+              type="rotate"
+            />
+          </path>
+          <path
+            d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+          >
+            <animatetransform
+              attributeName="transform"
+              attributeType="XML"
+              dur="2s"
+              from="0 50 50"
+              repeatCount="indefinite"
+              to="360 50 50"
+              type="rotate"
+            />
+          </path>
+        </svg>
+      </div>
+    </main>
+  </div>
+</div>
+`;

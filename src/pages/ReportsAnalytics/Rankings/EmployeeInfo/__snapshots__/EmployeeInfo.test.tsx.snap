@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeInfo should check if component renders properly without lastname 1`] = `
+<div>
+  <div
+    class="sc-1hri3zu-2 cFwJFI"
+  >
+    <div
+      class="sc-1hri3zu-4 sasPx"
+    >
+      <div
+        class="sc-1dzehji-0 hjLOhC"
+        defaults="[object Object]"
+      >
+        <strong
+          class="sc-1ntgl3l-0 fzLUlA"
+          textalign="initial"
+          textcolor="inherit"
+          textweight="Strong"
+        >
+          D
+        </strong>
+      </div>
+      <div
+        bg="inherit"
+        borderradius="2"
+        class="sc-12ecrgm-0 eQSGuc"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <strong
+          class="sc-1ntgl3l-0 dDvaST"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="body2"
+          textweight="Strong"
+        >
+          Dummy 
+        </strong>
+        <span
+          class="sc-1ntgl3l-0 frHHBv employeeId"
+          textalign="initial"
+          textcolor="#999"
+        >
+          1234
+        </span>
+      </div>
+    </div>
+    <div
+      bgcolor="#ECF1F9"
+      class="sc-1exx2co-0 ilWwCX sc-1hri3zu-5 gvqRuX"
+    >
+      <svg
+        fill="none"
+        height="14"
+        viewBox="0 0 14 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.241 10.428l2.756 1.75c.356.225.793-.109.69-.52l-.8-3.138a.476.476 0 0 1 .16-.481l2.471-2.062c.323-.268.159-.81-.262-.837l-3.227-.208a.454.454 0 0 1-.399-.295l-1.203-3.03a.454.454 0 0 0-.853 0L5.37 4.637a.454.454 0 0 1-.4.295l-3.226.208c-.421.028-.585.569-.263.837l2.472 2.062a.475.475 0 0 1 .159.48l-.738 2.91c-.126.492.399.892.82.624l2.565-1.625a.449.449 0 0 1 .481 0z"
+          fill="#3872D2"
+          fill-opacity=".2"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M7.006 10.798L7 10.796l-.006.002-2.566 1.624s-.272.174-.588.152c0 0-.29-.02-.526-.2 0 0-.233-.177-.334-.45 0 0-.11-.293-.03-.603l.738-2.909s.002-.008-.001-.019c0 0-.003-.01-.012-.017L1.202 6.313s-.224-.186-.297-.465c0 0-.068-.254.011-.51 0 0 .08-.257.282-.427 0 0 .222-.188.518-.207l3.227-.208s.007 0 .011-.004c0 0 .004-.003.006-.007l.004-.01 1.2-3.024s.097-.26.325-.419c0 0 .23-.16.51-.16 0 0 .282 0 .512.16 0 0 .228.16.324.419l1.201 3.025.004.009s.001.004.005.007c0 0 .004.003.01.004l3.229.208s.296.019.518.207c0 0 .202.17.282.428 0 0 .078.255.011.51 0 0-.073.278-.298.464l-2.47 2.062s-.01.008-.014.018c0 0-.004.01-.001.021l.798 3.137s.071.281-.028.547c0 0-.093.247-.304.407 0 0-.215.163-.479.181 0 0-.286.02-.536-.137l-2.757-1.751zm3.224 1.01L7.475 10.06S7.258 9.921 7 9.921c0 0-.258 0-.475.138L3.96 11.683s-.06.038-.116-.005c0 0-.069-.052-.046-.14l.738-2.91s.064-.258-.018-.509c0 0-.082-.25-.285-.418l-2.47-2.06s-.02-.016-.01-.043c0 0 .005-.02.02-.021l3.226-.208s.262-.015.476-.173c0 0 .21-.156.303-.401L6.98 1.769l.004-.012s.002-.005.006-.008c0 0 .005-.003.01-.003 0 0 .005 0 .01.003 0 0 .004.003.005.008l.005.012L8.22 4.795s.093.245.304.4c0 0 .213.159.478.174l3.224.208s.014 0 .02.02c0 0 .01.028-.009.043L9.766 7.703s-.202.166-.284.416c0 0-.083.25-.02.506l.8 3.142s.007.026-.013.04c0 0-.009.008-.019.001z"
+          fill="#3872D2"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <strong
+        class="sc-1ntgl3l-0 hZUdEJ"
+        textalign="initial"
+        textcolor="#3872D2"
+        textvariant="body1"
+        textweight="Strong"
+      >
+        4.0
+      </strong>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`EmployeeInfo should render properly 1`] = `
+<div>
+  <div
+    class="sc-1hri3zu-2 cFwJFI"
+  >
+    <div
+      class="sc-1hri3zu-4 sasPx"
+    >
+      <div
+        class="sc-1dzehji-0 hjLOhC"
+        defaults="[object Object]"
+      >
+        <strong
+          class="sc-1ntgl3l-0 fzLUlA"
+          textalign="initial"
+          textcolor="inherit"
+          textweight="Strong"
+        >
+          DU
+        </strong>
+      </div>
+      <div
+        bg="inherit"
+        borderradius="2"
+        class="sc-12ecrgm-0 eQSGuc"
+        color="black"
+        display="flex"
+        font-variant="body2"
+        px="4"
+        py="4"
+      >
+        <strong
+          class="sc-1ntgl3l-0 dDvaST"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="body2"
+          textweight="Strong"
+        >
+          Dummy User
+        </strong>
+        <span
+          class="sc-1ntgl3l-0 frHHBv employeeId"
+          textalign="initial"
+          textcolor="#999"
+        >
+          1234
+        </span>
+      </div>
+    </div>
+    <div
+      bgcolor="#ECF1F9"
+      class="sc-1exx2co-0 ilWwCX sc-1hri3zu-5 gvqRuX"
+    >
+      <svg
+        fill="none"
+        height="14"
+        viewBox="0 0 14 14"
+        width="14"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.241 10.428l2.756 1.75c.356.225.793-.109.69-.52l-.8-3.138a.476.476 0 0 1 .16-.481l2.471-2.062c.323-.268.159-.81-.262-.837l-3.227-.208a.454.454 0 0 1-.399-.295l-1.203-3.03a.454.454 0 0 0-.853 0L5.37 4.637a.454.454 0 0 1-.4.295l-3.226.208c-.421.028-.585.569-.263.837l2.472 2.062a.475.475 0 0 1 .159.48l-.738 2.91c-.126.492.399.892.82.624l2.565-1.625a.449.449 0 0 1 .481 0z"
+          fill="#3872D2"
+          fill-opacity=".2"
+        />
+        <path
+          clip-rule="evenodd"
+          d="M7.006 10.798L7 10.796l-.006.002-2.566 1.624s-.272.174-.588.152c0 0-.29-.02-.526-.2 0 0-.233-.177-.334-.45 0 0-.11-.293-.03-.603l.738-2.909s.002-.008-.001-.019c0 0-.003-.01-.012-.017L1.202 6.313s-.224-.186-.297-.465c0 0-.068-.254.011-.51 0 0 .08-.257.282-.427 0 0 .222-.188.518-.207l3.227-.208s.007 0 .011-.004c0 0 .004-.003.006-.007l.004-.01 1.2-3.024s.097-.26.325-.419c0 0 .23-.16.51-.16 0 0 .282 0 .512.16 0 0 .228.16.324.419l1.201 3.025.004.009s.001.004.005.007c0 0 .004.003.01.004l3.229.208s.296.019.518.207c0 0 .202.17.282.428 0 0 .078.255.011.51 0 0-.073.278-.298.464l-2.47 2.062s-.01.008-.014.018c0 0-.004.01-.001.021l.798 3.137s.071.281-.028.547c0 0-.093.247-.304.407 0 0-.215.163-.479.181 0 0-.286.02-.536-.137l-2.757-1.751zm3.224 1.01L7.475 10.06S7.258 9.921 7 9.921c0 0-.258 0-.475.138L3.96 11.683s-.06.038-.116-.005c0 0-.069-.052-.046-.14l.738-2.91s.064-.258-.018-.509c0 0-.082-.25-.285-.418l-2.47-2.06s-.02-.016-.01-.043c0 0 .005-.02.02-.021l3.226-.208s.262-.015.476-.173c0 0 .21-.156.303-.401L6.98 1.769l.004-.012s.002-.005.006-.008c0 0 .005-.003.01-.003 0 0 .005 0 .01.003 0 0 .004.003.005.008l.005.012L8.22 4.795s.093.245.304.4c0 0 .213.159.478.174l3.224.208s.014 0 .02.02c0 0 .01.028-.009.043L9.766 7.703s-.202.166-.284.416c0 0-.083.25-.02.506l.8 3.142s.007.026-.013.04c0 0-.009.008-.019.001z"
+          fill="#3872D2"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <strong
+        class="sc-1ntgl3l-0 hZUdEJ"
+        textalign="initial"
+        textcolor="#3872D2"
+        textvariant="body1"
+        textweight="Strong"
+      >
+        4.0
+      </strong>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Report Analytics should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between marginBottom-2"
+    >
+      <h4
+        class="sc-1ntgl3l-0 jPeJxZ sc-15ibc5q-1 glGGzx"
+        textalign="initial"
+        textcolor="inherit"
+        textvariant="h4"
+        textweight="Medium"
+      >
+        Analytics
+      </h4>
+      <div
+        bgcolor="#B0B0B026"
+        class="sc-1exx2co-0 dvekHJ"
+        pd="0.8rem 2rem"
+      >
+        <div
+          class="sc-h70dbj-0 fQmYvl row align-center column-gap-1"
+        >
+          <svg
+            class="sc-433e5x-0 dVjAFq"
+            height="0.5em"
+            viewBox="0 0 100 100"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="-.2em"
+              cy="50"
+              r=".25em"
+            >
+              <animate
+                attributeName="opacity"
+                begin=".1"
+                dur="1.5s"
+                repeatCount="indefinite"
+                values="0;1;0"
+              />
+            </circle>
+            <circle
+              cx=".5em"
+              cy="50"
+              r=".25em"
+            >
+              <animate
+                attributeName="opacity"
+                begin=".2"
+                dur="1.5s"
+                repeatCount="indefinite"
+                values="0;1;0"
+              />
+            </circle>
+            <circle
+              cx="1.2em"
+              cy="50"
+              r=".25em"
+            >
+              <animate
+                attributeName="opacity"
+                begin=".3"
+                dur="1.5s"
+                repeatCount="indefinite"
+                values="0;1;0"
+              />
+            </circle>
+          </svg>
+          <span
+            class="sc-1ntgl3l-0 hGagSU"
+            color="#555"
+            textalign="initial"
+            textcolor="inherit"
+          >
+            Active Employees
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-15ibc5q-0 kzxagM"
+    >
+      <div
+        class="sc-1t1ahfa-2 ebUScI"
+      >
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU sc-1t1ahfa-3 gCnYIy"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+        >
+          Ratings
+        </h4>
+        <div
+          class="sc-1t1ahfa-1 jOrojb"
+        >
+          <div
+            bgcolor="#F64D6E26"
+            class="sc-1exx2co-0 sc-1t1ahfa-0 TPGAq cgZUsL"
+          >
+            <svg
+              class="sc-433e5x-0 dVjAFq"
+              height="0.5em"
+              viewBox="0 0 100 100"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="-.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".1"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx=".5em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".2"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx="1.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".3"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+            </svg>
+            <h4
+              class="sc-1ntgl3l-0 fgmHgf sc-1t1ahfa-4 jrLGQQ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Unsatisfactory
+            </h4>
+          </div>
+          <div
+            bgcolor="#F2A14226"
+            class="sc-1exx2co-0 sc-1t1ahfa-0 fCAIIb cgZUsL"
+          >
+            <svg
+              class="sc-433e5x-0 dVjAFq"
+              height="0.5em"
+              viewBox="0 0 100 100"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="-.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".1"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx=".5em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".2"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx="1.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".3"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+            </svg>
+            <h4
+              class="sc-1ntgl3l-0 fgmHgf sc-1t1ahfa-4 jrLGQQ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Needs Improvement
+            </h4>
+          </div>
+          <div
+            bgcolor="#5CBE4C26"
+            class="sc-1exx2co-0 sc-1t1ahfa-0 kYlBen cgZUsL"
+          >
+            <svg
+              class="sc-433e5x-0 dVjAFq"
+              height="0.5em"
+              viewBox="0 0 100 100"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="-.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".1"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx=".5em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".2"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx="1.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".3"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+            </svg>
+            <h4
+              class="sc-1ntgl3l-0 fgmHgf sc-1t1ahfa-4 jrLGQQ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Meets Expectations
+            </h4>
+          </div>
+          <div
+            bgcolor="#4ACEBE26"
+            class="sc-1exx2co-0 sc-1t1ahfa-0 kAYLaV cgZUsL"
+          >
+            <svg
+              class="sc-433e5x-0 dVjAFq"
+              height="0.5em"
+              viewBox="0 0 100 100"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="-.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".1"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx=".5em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".2"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx="1.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".3"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+            </svg>
+            <h4
+              class="sc-1ntgl3l-0 fgmHgf sc-1t1ahfa-4 jrLGQQ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Exceeds Expectations
+            </h4>
+          </div>
+          <div
+            bgcolor="#F0EDFF"
+            class="sc-1exx2co-0 sc-1t1ahfa-0 cElzFC cgZUsL"
+          >
+            <svg
+              class="sc-433e5x-0 dVjAFq"
+              height="0.5em"
+              viewBox="0 0 100 100"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="-.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".1"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx=".5em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".2"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+              <circle
+                cx="1.2em"
+                cy="50"
+                r=".25em"
+              >
+                <animate
+                  attributeName="opacity"
+                  begin=".3"
+                  dur="1.5s"
+                  repeatCount="indefinite"
+                  values="0;1;0"
+                />
+              </circle>
+            </svg>
+            <h4
+              class="sc-1ntgl3l-0 fgmHgf sc-1t1ahfa-4 jrLGQQ"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+              textweight="Regular"
+            >
+              Outstanding
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-15ibc5q-2 dhgZTh"
+      >
+        <div
+          class="sc-1x6pdpr-0 ivwHBN"
+        >
+          <div
+            class="sc-1x6pdpr-1 kqSogh"
+          >
+            <h4
+              class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+            >
+              Feedback
+            </h4>
+            <div
+              class="sc-mbkfkf-0 KnoHL"
+            >
+              <main
+                class="sc-1ehavxz-0 dDyhBJ"
+              >
+                <div
+                  class="sc-6d0kjn-0 dkGZbP"
+                >
+                  <svg
+                    class="sc-433e5x-0 dVjAFq"
+                    height="1em"
+                    viewBox="0 0 100 100"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="2s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                    <path
+                      d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="1s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="-360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                    <path
+                      d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="2s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                  </svg>
+                </div>
+              </main>
+            </div>
+            <div
+              class="sc-1x6pdpr-3 bArfSU"
+            >
+              <div
+                class="sc-1x6pdpr-4 iZlTVp"
+              >
+                <div
+                  bgcolor="#5CBE4C"
+                  class="sc-1x6pdpr-5 jfbiTP"
+                />
+                <span
+                  class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Positive
+                </span>
+              </div>
+              <div
+                class="sc-1x6pdpr-4 iZlTVp"
+              >
+                <div
+                  bgcolor="#F2A142"
+                  class="sc-1x6pdpr-5 hmZaEX"
+                />
+                <span
+                  class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Improvement
+                </span>
+              </div>
+              <div
+                class="sc-1x6pdpr-4 iZlTVp"
+              >
+                <div
+                  bgcolor="#7557EF"
+                  class="sc-1x6pdpr-5 iHoXDu"
+                />
+                <span
+                  class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Appreciation
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-1x6pdpr-1 kqSogh"
+          >
+            <h4
+              class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+            >
+              Review Status
+            </h4>
+            <div
+              class="sc-mbkfkf-0 KnoHL"
+            >
+              <main
+                class="sc-1ehavxz-0 dDyhBJ"
+              >
+                <div
+                  class="sc-6d0kjn-0 dkGZbP"
+                >
+                  <svg
+                    class="sc-433e5x-0 dVjAFq"
+                    height="1em"
+                    viewBox="0 0 100 100"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="2s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                    <path
+                      d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="1s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="-360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                    <path
+                      d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="2s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                  </svg>
+                </div>
+              </main>
+            </div>
+            <div
+              class="sc-1x6pdpr-3 bArfSU"
+            >
+              <div
+                class="sc-1x6pdpr-4 iZlTVp"
+              >
+                <div
+                  bgcolor="#5CBE4C"
+                  class="sc-1x6pdpr-5 jfbiTP"
+                />
+                <span
+                  class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Completed
+                </span>
+              </div>
+              <div
+                class="sc-1x6pdpr-4 iZlTVp"
+              >
+                <div
+                  bgcolor="#F2A142"
+                  class="sc-1x6pdpr-5 hmZaEX"
+                />
+                <span
+                  class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  In Progress
+                </span>
+              </div>
+              <div
+                class="sc-1x6pdpr-4 iZlTVp"
+              >
+                <div
+                  bgcolor="#CFD5DC"
+                  class="sc-1x6pdpr-5 iINve"
+                />
+                <span
+                  class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                  textalign="initial"
+                  textcolor="inherit"
+                >
+                  Pending
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-1hri3zu-0 clPxvi"
+        >
+          <div
+            class="sc-1hri3zu-1 bhCfdQ"
+          >
+            <h4
+              class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+              textalign="initial"
+              textcolor="inherit"
+              textvariant="h4"
+            >
+              Top 5 Performers
+            </h4>
+          </div>
+          <div
+            class="sc-1hri3zu-3 iUNkse"
+          >
+            <div
+              class="sc-mbkfkf-0 KnoHL"
+            >
+              <main
+                class="sc-1ehavxz-0 dDyhBJ"
+              >
+                <div
+                  class="sc-6d0kjn-0 dkGZbP"
+                >
+                  <svg
+                    class="sc-433e5x-0 dVjAFq"
+                    height="1em"
+                    viewBox="0 0 100 100"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="2s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                    <path
+                      d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="1s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="-360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                    <path
+                      d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+                    >
+                      <animatetransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        dur="2s"
+                        from="0 50 50"
+                        repeatCount="indefinite"
+                        to="360 50 50"
+                        type="rotate"
+                      />
+                    </path>
+                  </svg>
+                </div>
+              </main>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-llmrdn-0 evKsbA"
+      >
+        <h4
+          class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+        >
+          Demographic
+        </h4>
+        <div
+          class="sc-llmrdn-2 hBAaNE"
+        >
+          <div
+            class="sc-llmrdn-1 dKJLYy"
+          >
+            <div
+              class="sc-llmrdn-3 kjWyQI"
+            >
+              <svg
+                class="female"
+                fill="#333"
+                height="61"
+                viewBox="0 0 27 61"
+                width="27"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M26.765 42.89h-9.962v17.893H9.994V42.912H0c.224-.675.417-1.286.63-1.898 2.352-6.925 4.704-13.85 7.077-20.776.887-2.584 2.715-4.02 5.419-4.202a5.785 5.785 0 0 1 5.847 3.902c1.464 4.224 2.897 8.47 4.329 12.704 1.112 3.27 2.213 6.529 3.324 9.798.043.14.086.28.14.45zM13.383.447c3.292 0 5.985 2.68 5.975 5.95-.011 3.302-2.683 5.982-5.954 5.982-3.303 0-5.997-2.712-5.975-6.003A5.955 5.955 0 0 1 13.383.447z"
+                  fill="#000"
+                />
+              </svg>
+              <div
+                class="sc-llmrdn-4 gQBmvU"
+              >
+                <svg
+                  class="sc-433e5x-0 dVjAFq"
+                  height="0.5em"
+                  viewBox="0 0 100 100"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="-.2em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".1"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                  <circle
+                    cx=".5em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".2"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                  <circle
+                    cx="1.2em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".3"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                </svg>
+                <span
+                  class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+                  textalign="initial"
+                  textcolor="#666"
+                >
+                  Female
+                </span>
+              </div>
+            </div>
+            <div
+              class="sc-llmrdn-3 kjWyQI"
+            >
+              <svg
+                class="male"
+                fill="#333"
+                height="60"
+                viewBox="0 0 18 60"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  clip-path="url(#clip0_1346_9876)"
+                >
+                  <path
+                    d="M17.99 37.516h-5.294V60H5.315V37.516H.02c0-.162-.021-.302-.021-.431V21.147c0-3.02.833-5.403 3.65-6.018.39-.086.79-.118 1.192-.118C7.617 15 10.392 15 13.168 15c2.879 0 4.133 1.952 4.709 4.907.082.398.113.808.113 1.207v16.402z"
+                    fill="#000"
+                  />
+                </g>
+                <path
+                  d="M8.383.447c3.292 0 5.985 2.68 5.975 5.95-.011 3.302-2.683 5.982-5.954 5.982-3.303 0-5.997-2.712-5.975-6.003A5.955 5.955 0 0 1 8.383.447z"
+                  fill="#000"
+                />
+                <defs>
+                  <clippath
+                    id="clip0_1346_9876"
+                  >
+                    <path
+                      d="M0 0h18v45H0z"
+                      fill="#fff"
+                      transform="translate(0 15)"
+                    />
+                  </clippath>
+                </defs>
+              </svg>
+              <div
+                class="sc-llmrdn-4 gQBmvU"
+              >
+                <svg
+                  class="sc-433e5x-0 dVjAFq"
+                  height="0.5em"
+                  viewBox="0 0 100 100"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="-.2em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".1"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                  <circle
+                    cx=".5em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".2"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                  <circle
+                    cx="1.2em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".3"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                </svg>
+                <span
+                  class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+                  textalign="initial"
+                  textcolor="#666"
+                >
+                  Male
+                </span>
+              </div>
+            </div>
+            <div
+              class="sc-llmrdn-3 kjWyQI"
+            >
+              <svg
+                class="other"
+                fill="none"
+                height="60"
+                viewBox="0 0 25 60"
+                width="25"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.692 41.085h10.677L16.8 19.402c-.799-1.86-3-3.87-7.8-3.87s-2.428 2.01-.642 3.016c-.779 7.542-.001 16.09-.27 22.123v1.005h-.01v18.101h5.615V41.085z"
+                  fill="#000"
+                />
+                <path
+                  d="M4.815 41.18v-.5H.5V21.7c0-1.483.205-2.746.71-3.698.491-.925 1.28-1.586 2.547-1.864.347-.077.71-.108 1.085-.108h3.647L7.51 59.277H4.815V41.18z"
+                  fill="#000"
+                  stroke="#000"
+                />
+                <path
+                  d="M8.383.447c3.292 0 5.985 2.68 5.975 5.95-.011 3.302-2.683 5.982-5.954 5.982-3.303 0-5.997-2.712-5.975-6.003A5.955 5.955 0 0 1 8.383.447z"
+                  fill="#000"
+                />
+                <path
+                  d="M8 15h2v45H8V15z"
+                  fill="#F7F9FD"
+                />
+              </svg>
+              <div
+                class="sc-llmrdn-4 gQBmvU"
+              >
+                <svg
+                  class="sc-433e5x-0 dVjAFq"
+                  height="0.5em"
+                  viewBox="0 0 100 100"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="-.2em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".1"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                  <circle
+                    cx=".5em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".2"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                  <circle
+                    cx="1.2em"
+                    cy="50"
+                    r=".25em"
+                  >
+                    <animate
+                      attributeName="opacity"
+                      begin=".3"
+                      dur="1.5s"
+                      repeatCount="indefinite"
+                      values="0;1;0"
+                    />
+                  </circle>
+                </svg>
+                <span
+                  class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+                  textalign="initial"
+                  textcolor="#666"
+                >
+                  Other
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-llmrdn-4 sc-llmrdn-5 gQBmvU cBypac"
+          >
+            <span
+              class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+              textalign="initial"
+              textcolor="#666"
+            >
+              Average Tenure
+            </span>
+            <div>
+              <svg
+                class="sc-433e5x-0 dVjAFq"
+                height="0.5em"
+                viewBox="0 0 100 100"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="-.2em"
+                  cy="50"
+                  r=".25em"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin=".1"
+                    dur="1.5s"
+                    repeatCount="indefinite"
+                    values="0;1;0"
+                  />
+                </circle>
+                <circle
+                  cx=".5em"
+                  cy="50"
+                  r=".25em"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin=".2"
+                    dur="1.5s"
+                    repeatCount="indefinite"
+                    values="0;1;0"
+                  />
+                </circle>
+                <circle
+                  cx="1.2em"
+                  cy="50"
+                  r=".25em"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin=".3"
+                    dur="1.5s"
+                    repeatCount="indefinite"
+                    values="0;1;0"
+                  />
+                </circle>
+              </svg>
+            </div>
+          </div>
+          <div
+            class="sc-llmrdn-4 sc-llmrdn-5 gQBmvU cBypac"
+          >
+            <span
+              class="sc-1ntgl3l-0 icUogw sc-llmrdn-8 YrKSM"
+              textalign="initial"
+              textcolor="#666"
+            >
+              Average Age
+            </span>
+            <div>
+              <svg
+                class="sc-433e5x-0 dVjAFq"
+                height="0.5em"
+                viewBox="0 0 100 100"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="-.2em"
+                  cy="50"
+                  r=".25em"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin=".1"
+                    dur="1.5s"
+                    repeatCount="indefinite"
+                    values="0;1;0"
+                  />
+                </circle>
+                <circle
+                  cx=".5em"
+                  cy="50"
+                  r=".25em"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin=".2"
+                    dur="1.5s"
+                    repeatCount="indefinite"
+                    values="0;1;0"
+                  />
+                </circle>
+                <circle
+                  cx="1.2em"
+                  cy="50"
+                  r=".25em"
+                >
+                  <animate
+                    attributeName="opacity"
+                    begin=".3"
+                    dur="1.5s"
+                    repeatCount="indefinite"
+                    values="0;1;0"
+                  />
+                </circle>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-161s7pg-0 cfsgKe"
+      >
+        <div
+          class="sc-161s7pg-1 cknQXk"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+          >
+            Employee Count by Total Experience
+          </h4>
+          <div
+            class="sc-mbkfkf-0 KnoHL"
+          >
+            <main
+              class="sc-1ehavxz-0 dDyhBJ"
+            >
+              <div
+                class="sc-6d0kjn-0 dkGZbP"
+              >
+                <svg
+                  class="sc-433e5x-0 dVjAFq"
+                  height="1em"
+                  viewBox="0 0 100 100"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="2s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                  <path
+                    d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="1s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="-360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                  <path
+                    d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="2s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                </svg>
+              </div>
+            </main>
+          </div>
+        </div>
+        <div
+          class="sc-161s7pg-1 sc-161s7pg-2 cknQXk kEQQSW"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+          >
+            Employee Type
+          </h4>
+          <div
+            class="sc-mbkfkf-0 KnoHL"
+          >
+            <main
+              class="sc-1ehavxz-0 dDyhBJ"
+            >
+              <div
+                class="sc-6d0kjn-0 dkGZbP"
+              >
+                <svg
+                  class="sc-433e5x-0 dVjAFq"
+                  height="1em"
+                  viewBox="0 0 100 100"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="2s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                  <path
+                    d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="1s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="-360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                  <path
+                    d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="2s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                </svg>
+              </div>
+            </main>
+          </div>
+          <div
+            class="sc-1x6pdpr-3 bArfSU"
+          >
+            <div
+              class="sc-1x6pdpr-4 iZlTVp"
+            >
+              <div
+                bgcolor="#7557EF"
+                class="sc-1x6pdpr-5 iHoXDu"
+              />
+              <span
+                class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                Full-time employee
+              </span>
+            </div>
+            <div
+              class="sc-1x6pdpr-4 iZlTVp"
+            >
+              <div
+                bgcolor="#F2A142"
+                class="sc-1x6pdpr-5 hmZaEX"
+              />
+              <span
+                class="sc-1ntgl3l-0 hGagSU sc-1x6pdpr-6 cwUtQz"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                Consultants
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-161s7pg-0 cfsgKe"
+      >
+        <div
+          class="sc-161s7pg-1 sc-161s7pg-3 cknQXk WjToO"
+        >
+          <h4
+            class="sc-1ntgl3l-0 iEGCWU sc-1x6pdpr-2 jogqAk"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="h4"
+          >
+            Employee Count per Team
+          </h4>
+          <div
+            class="sc-mbkfkf-0 KnoHL"
+          >
+            <main
+              class="sc-1ehavxz-0 dDyhBJ"
+            >
+              <div
+                class="sc-6d0kjn-0 dkGZbP"
+              >
+                <svg
+                  class="sc-433e5x-0 dVjAFq"
+                  height="1em"
+                  viewBox="0 0 100 100"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="2s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                  <path
+                    d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="1s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="-360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                  <path
+                    d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+                  >
+                    <animatetransform
+                      attributeName="transform"
+                      attributeType="XML"
+                      dur="2s"
+                      from="0 50 50"
+                      repeatCount="indefinite"
+                      to="360 50 50"
+                      type="rotate"
+                    />
+                  </path>
+                </svg>
+              </div>
+            </main>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

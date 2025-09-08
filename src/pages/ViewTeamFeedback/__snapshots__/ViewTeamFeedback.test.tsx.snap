@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewTeamFeedback component should take snapshot 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          Team's Feedback
+           
+          <span
+            class="sc-1ntgl3l-0 dUPZoS"
+            style="font-size: 14px;"
+            textalign="initial"
+            textcolor="inherit"
+            textvariant="body1"
+            textweight="Medium"
+          >
+            (
+            18th Oct 2024 - 1st Jan 1970
+            )
+          </span>
+        </h3>
+      </div>
+      <button
+        class="sc-1k2druj-0 yZQJV sc-w8e7z6-1 lnjfja"
+        edges="square"
+        type="button"
+        variant="flat"
+      >
+        <span
+          class="sc-1ntgl3l-0 eOsHHD"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="button1"
+        >
+          Go Back
+        </span>
+      </button>
+    </div>
+    <div
+      class="sc-13bppbd-0 sc-tkiih6-28 sc-1tw5u2q-1 dErHOx elfdNn"
+      data-testid="tabs"
+      id="feedback-tabs"
+    >
+      <div
+        class="sc-12mpb33-0 dYQjJT"
+        id="feedback-tabs-list"
+        tabsize="S"
+        variant="outlined"
+      >
+        <button
+          aria-controls="panel-positive"
+          aria-selected="true"
+          bgcolor="[object Object]"
+          bordercolor="[object Object]"
+          class="sc-1kcg570-4 hLhToq"
+          countbgcolor="[object Object]"
+          countborderradius="2.5rem"
+          countcolor="#ffffff"
+          helpertextcolor="[object Object]"
+          iconbgcolor="[object Object]"
+          iconcolor="[object Object]"
+          id="positive"
+          label="[object Object]"
+          labelcolor="[object Object]"
+          role="tab"
+          solid="[object Object]"
+          tabbackground="WHITE"
+          tabindex="0"
+          tabsize="S"
+          totaltabs="3"
+          type="button"
+          variant="outlined"
+        >
+          <div
+            class="sc-1kcg570-5 kFiIrt"
+          >
+            <div
+              class="sc-1kcg570-6 jobpmu"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU sc-1kcg570-1 ieSRdN"
+                id="positive-label"
+                tabsize="S"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                Positive
+              </span>
+              <span
+                class="sc-1kcg570-0 bVzkba"
+                id="positive-label"
+                tabsize="S"
+              >
+                0
+              </span>
+            </div>
+          </div>
+        </button>
+        <button
+          aria-controls="panel-improvement"
+          aria-selected="false"
+          bgcolor="[object Object]"
+          bordercolor="[object Object]"
+          class="sc-1kcg570-4 hzTrVV"
+          countbgcolor="[object Object]"
+          countborderradius="2.5rem"
+          countcolor="#ffffff"
+          helpertextcolor="[object Object]"
+          iconbgcolor="[object Object]"
+          iconcolor="[object Object]"
+          id="improvement"
+          label="[object Object]"
+          labelcolor="[object Object]"
+          role="tab"
+          solid="[object Object]"
+          tabbackground="WHITE"
+          tabindex="-1"
+          tabsize="S"
+          totaltabs="3"
+          type="button"
+          variant="outlined"
+        >
+          <div
+            class="sc-1kcg570-5 kFiIrt"
+          >
+            <div
+              class="sc-1kcg570-6 jobpmu"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU sc-1kcg570-1 ieSRdN"
+                id="improvement-label"
+                tabsize="S"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                Improvement
+              </span>
+              <span
+                class="sc-1kcg570-0 bVzkba"
+                id="improvement-label"
+                tabsize="S"
+              >
+                0
+              </span>
+            </div>
+          </div>
+        </button>
+        <button
+          aria-controls="panel-appreciation"
+          aria-selected="false"
+          bgcolor="[object Object]"
+          bordercolor="[object Object]"
+          class="sc-1kcg570-4 hzTrVV"
+          countbgcolor="[object Object]"
+          countborderradius="2.5rem"
+          countcolor="#ffffff"
+          helpertextcolor="[object Object]"
+          iconbgcolor="[object Object]"
+          iconcolor="[object Object]"
+          id="appreciation"
+          label="[object Object]"
+          labelcolor="[object Object]"
+          role="tab"
+          solid="[object Object]"
+          tabbackground="WHITE"
+          tabindex="-1"
+          tabsize="S"
+          totaltabs="3"
+          type="button"
+          variant="outlined"
+        >
+          <div
+            class="sc-1kcg570-5 kFiIrt"
+          >
+            <div
+              class="sc-1kcg570-6 jobpmu"
+            >
+              <span
+                class="sc-1ntgl3l-0 hGagSU sc-1kcg570-1 ieSRdN"
+                id="appreciation-label"
+                tabsize="S"
+                textalign="initial"
+                textcolor="inherit"
+              >
+                Appreciation
+              </span>
+              <span
+                class="sc-1kcg570-0 bVzkba"
+                id="appreciation-label"
+                tabsize="S"
+              >
+                0
+              </span>
+            </div>
+          </div>
+        </button>
+      </div>
+      <div
+        aria-labelledby="positive"
+        class="sc-x0gfjw-0 bLZBSc"
+        id="feedback-tabs-panel-positive"
+        role="tabpanel"
+        tabindex="0"
+      >
+        <div
+          class="sc-mbkfkf-0 KnoHL"
+        >
+          <main
+            class="sc-1ehavxz-0 dDyhBJ"
+          >
+            <div
+              class="sc-6d0kjn-0 dkGZbP"
+            >
+              <svg
+                class="sc-433e5x-0 dVjAFq"
+                height="1em"
+                viewBox="0 0 100 100"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M31.6 3.5C5.9 13.6-6.6 42.7 3.5 68.4c10.1 25.7 39.2 38.3 64.9 28.1l-3.1-7.9C44 97 19.9 86.6 11.5 65.3c-8.4-21.3 2-45.4 23.3-53.8l-3.2-8z"
+                >
+                  <animatetransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    dur="2s"
+                    from="0 50 50"
+                    repeatCount="indefinite"
+                    to="360 50 50"
+                    type="rotate"
+                  />
+                </path>
+                <path
+                  d="M42.3 39.6c5.7-4.3 13.9-3.1 18.1 2.7 4.3 5.7 3.1 13.9-2.7 18.1l4.1 5.5c8.8-6.5 10.6-19 4.1-27.7-6.5-8.8-19-10.6-27.7-4.1l4.1 5.5z"
+                >
+                  <animatetransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    dur="1s"
+                    from="0 50 50"
+                    repeatCount="indefinite"
+                    to="-360 50 50"
+                    type="rotate"
+                  />
+                </path>
+                <path
+                  d="M82 35.7C74.1 18 53.4 10.1 35.7 18S10.1 46.6 18 64.3l7.6-3.4c-6-13.5 0-29.3 13.5-35.3s29.3 0 35.3 13.5l7.6-3.4z"
+                >
+                  <animatetransform
+                    attributeName="transform"
+                    attributeType="XML"
+                    dur="2s"
+                    from="0 50 50"
+                    repeatCount="indefinite"
+                    to="360 50 50"
+                    type="rotate"
+                  />
+                </path>
+              </svg>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;

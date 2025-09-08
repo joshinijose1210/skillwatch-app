@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GoBackButton component should take snapshot 1`] = `
+<div>
+  <button
+    class="sc-1k2druj-0 fwhZLu"
+    edges="square"
+    type="button"
+    variant="flat"
+  >
+    <svg
+      class="sc-1pf3x8a-0 klDMsE"
+      fill="none"
+      height="1em"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M17.002 2.985a1.25 1.25 0 0 0-1.77 0l-8.31 8.31a.996.996 0 0 0 0 1.41l8.31 8.31c.49.49 1.28.49 1.77 0s.49-1.28 0-1.77l-7.24-7.25 7.25-7.25c.48-.48.48-1.28-.01-1.76z"
+        fill="#000"
+        fill-opacity=".54"
+      />
+    </svg>
+    <span
+      class="sc-1ntgl3l-0 eOsHHD"
+      textalign="initial"
+      textcolor="inherit"
+      textvariant="button1"
+    >
+      Go Back
+    </span>
+  </button>
+</div>
+`;

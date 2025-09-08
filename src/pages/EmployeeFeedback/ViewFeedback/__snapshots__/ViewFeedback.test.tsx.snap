@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViewFeedback component when external feedback is receieved should render properly 1`] = `
+<div>
+  <main
+    class="sc-1ehavxz-0 dDyhBJ"
+  >
+    <div
+      class="sc-h70dbj-0 fQmYvl row expanded space-between align-center marginBottom-2"
+    >
+      <div
+        class="sc-w8e7z6-2"
+      >
+        <h3
+          class="sc-1ntgl3l-0 kcLBOi sc-w8e7z6-0 ibnmt"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h3"
+          textweight="Medium"
+        >
+          View Feedback
+        </h3>
+      </div>
+    </div>
+    <div
+      class="sc-u1crwe-1 gyJsin"
+    >
+      <div
+        class="sc-u1crwe-0 lgvtAn"
+      >
+        <span
+          class="sc-1ntgl3l-0 gPMgWC sc-u1crwe-2 cnczNT"
+          textalign="initial"
+          textcolor="inherit"
+          textweight="Medium"
+        >
+          Date: 
+          <span
+            class="sc-1ntgl3l-0 hGagSU"
+            textalign="initial"
+            textcolor="inherit"
+          >
+            18/10/2024
+          </span>
+        </span>
+      </div>
+      <div
+        class="sc-u1crwe-0 lgvtAn"
+      >
+        <h4
+          class="sc-1ntgl3l-0 jPeJxZ sc-u1crwe-2 cnczNT"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Medium"
+        >
+          Feedback From:
+        </h4>
+        <span
+          class="sc-1ntgl3l-0 hGagSU"
+          textalign="initial"
+          textcolor="inherit"
+        >
+          external@gmail.com
+        </span>
+        <span
+          class="sc-1ntgl3l-0 hGagSU sc-u1crwe-4 hOTIgn"
+          textalign="initial"
+          textcolor="inherit"
+        >
+          <i>
+            Dev2
+          </i>
+        </span>
+      </div>
+      <div
+        class="sc-u1crwe-0 lgvtAn"
+      >
+        <h4
+          class="sc-1ntgl3l-0 jPeJxZ sc-u1crwe-2 cnczNT"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Medium"
+        >
+          Feedback About:
+        </h4>
+        <span
+          class="sc-1ntgl3l-0 hGagSU"
+          textalign="initial"
+          textcolor="inherit"
+        >
+          EmployeeName
+           ( 
+          T0123
+           )
+        </span>
+        <span
+          class="sc-1ntgl3l-0 hGagSU sc-u1crwe-4 hOTIgn"
+          textalign="initial"
+          textcolor="inherit"
+        >
+          <i>
+            Dev
+          </i>
+        </span>
+      </div>
+      <div
+        class="sc-u1crwe-0 lgvtAn"
+      >
+        <h4
+          class="sc-1ntgl3l-0 jPeJxZ sc-u1crwe-2 cnczNT"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Medium"
+        >
+          Feedback Type:
+        </h4>
+        <span
+          class="sc-1ntgl3l-0 hGagSU"
+          textalign="initial"
+          textcolor="inherit"
+        >
+          Positive
+        </span>
+      </div>
+      <div
+        class="sc-u1crwe-0 lgvtAn"
+      >
+        <h4
+          class="sc-1ntgl3l-0 jPeJxZ sc-u1crwe-2 cnczNT"
+          textalign="initial"
+          textcolor="inherit"
+          textvariant="h4"
+          textweight="Medium"
+        >
+          Feedback:
+        </h4>
+        <span
+          class="sc-1ntgl3l-0 hGagSU sc-u1crwe-3 eOrgCc"
+          textalign="initial"
+          textcolor="inherit"
+        >
+          this is a test feedback for view feedback page testing
+        </span>
+      </div>
+    </div>
+  </main>
+</div>
+`;

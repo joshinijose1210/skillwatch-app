@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IntegrationCard should render properly with all props given 1`] = `
+<div>
+  <div
+    alignitems="center"
+    backgroundcolor="#ffffff"
+    borderradius="0.8rem"
+    class="sc-gr411i-0 dxPiGG sc-9frze1-0 cWPDUF"
+    display="block"
+    flex="1"
+    flowdirection="vertical"
+    padding="[object Object]"
+    separatorcolor="#98A7B7"
+    shadowcolor="#b0bcc8"
+    variant="solid"
+  >
+    <div
+      class="sc-9frze1-1 bEplZS"
+    >
+      <svg />
+    </div>
+    <div
+      class="sc-9frze1-3 iMElqA"
+    >
+      <h3
+        class="sc-1ntgl3l-0 OLixH"
+        textalign="center"
+        textcolor="inherit"
+        textvariant="h3"
+        textweight="Medium"
+      >
+        Dummy title
+      </h3>
+      <span
+        class="sc-1ntgl3l-0 hSbYjV"
+        textalign="center"
+        textcolor="inherit"
+        textvariant="body1"
+        textweight="Regular"
+      >
+        dummy Description
+      </span>
+      <span
+        class="sc-1ntgl3l-0 hGagSU"
+        textalign="initial"
+        textcolor="inherit"
+      >
+        dummy content
+      </span>
+    </div>
+    <div
+      class="sc-9frze1-4 fAghlw"
+    >
+      <span
+        class="sc-1ntgl3l-0 hGagSU"
+        textalign="initial"
+        textcolor="inherit"
+      >
+        footer content
+      </span>
+      <h4
+        class="sc-1ntgl3l-0 fmUXqp"
+        textalign="initial"
+        textcolor="#1C3969"
+        textvariant="h4"
+        textweight="Strong"
+      >
+        dummy footer text
+      </h4>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`IntegrationCard should render properly with default props 1`] = `
+<div>
+  <div
+    alignitems="center"
+    backgroundcolor="#ffffff"
+    borderradius="0.8rem"
+    class="sc-gr411i-0 dxPiGG sc-9frze1-0 cWPDUF"
+    display="block"
+    flex="1"
+    flowdirection="vertical"
+    padding="[object Object]"
+    separatorcolor="#98A7B7"
+    shadowcolor="#b0bcc8"
+    variant="solid"
+  >
+    <div
+      class="sc-9frze1-1 bEplZS"
+    >
+      <svg />
+    </div>
+    <div
+      class="sc-9frze1-3 iMElqA"
+    >
+      <h3
+        class="sc-1ntgl3l-0 OLixH"
+        textalign="center"
+        textcolor="inherit"
+        textvariant="h3"
+        textweight="Medium"
+      >
+        Dummy title
+      </h3>
+    </div>
+    <div
+      class="sc-9frze1-4 fAghlw"
+    />
+  </div>
+</div>
+`;
