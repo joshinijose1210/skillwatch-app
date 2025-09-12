@@ -27,42 +27,13 @@ export default defineConfig(({ mode }) => {
       },
       commonjsOptions: { transformMixedEsModules: true }
     },
-    css: {
-      modules: false
-    },
-    define: {
-      'process.env': JSON.stringify(env)
-    },
-    // ✅ Base must be "/" for Amplify hosting at root
-    base: '/',
+    css: { modules: false },
+    define: { 'process.env': JSON.stringify(env) },
+    base: '/', // important for Amplify hosting
     resolve: {
       alias: {
         buffer: 'buffer/',
         '@': '/src',
-        '@common': '/src/common',
-        '@common/*': '/src/common/*',
-        '@components': '/src/components',
-        '@components/*': '/src/components/*',
-        '@mocks': '/src/mocks',
-        '@mocks/*': '/src/mocks/*',
-        '@theme': '/src/theme',
-        '@theme/*': '/src/theme/*',
-        '@utils': '/src/utils',
-        '@utils/*': '/src/utils/*',
-        '@test-utils': '/src/utils/test-utils',
-        '@styled': '/src/utils/styled',
-        '@slice': '/src/slice',
-        '@slice/*': '/src/slice/*',
-        '@routes': '/src/routes',
-        '@routes/*': '/src/routes/*',
-        '@pages': '/src/pages',
-        '@pages/*': '/src/pages/*',
-        '@services/*': '/src/services/*',
-        '@services': '/src/services',
-        '@constants': '/src/constants',
-        '@constants/*': '/src/constants/*',
-        '@testData': '/src/testData',
-        '@testData/*': '/src/testData/*'
       }
     }
   };
