@@ -33,7 +33,7 @@ export default defineConfig(({ mode }) => {
         define: {
             'process.env': JSON.stringify(env)
         },
-        base: mode === 'production' ? '/app' : '/',
+        base: '/',
         resolve: {
             alias: {
                 buffer: 'buffer/',
