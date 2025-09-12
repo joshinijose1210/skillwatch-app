@@ -4,7 +4,7 @@ import svgr from 'vite-plugin-svgr';
 import path from 'path';
 
 const PACKAGE_ROOT_PATH = process.cwd();
-const DIST = path.resolve(PACKAGE_ROOT_PATH, './dist/app');
+const DIST = path.resolve(PACKAGE_ROOT_PATH, './dist');
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd(), '');
