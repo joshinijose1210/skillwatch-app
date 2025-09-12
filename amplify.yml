@@ -8,9 +8,10 @@ frontend:
       commands:
         - yarn dist
   artifacts:
-    baseDirectory: dist/app
+    baseDirectory: dist
     files:
       - '**/*'
   cache:
     paths:
       - node_modules/**/*
+
