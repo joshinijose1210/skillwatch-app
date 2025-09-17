@@ -19,6 +19,7 @@ export default defineConfig(({ mode }) => {
     ],
     build: {
       outDir: DIST,
+      sourcemap: true,  // <-- Enable source maps here
       rollupOptions: {
         output: {
           entryFileNames: '[name].[hash].js',
@@ -29,7 +30,7 @@ export default defineConfig(({ mode }) => {
     },
     css: { modules: false },
     define: { 'process.env': JSON.stringify(env) },
-    base: '/', // important for Amplify hosting
+    base: '/',
     resolve: {
       alias: {
         buffer: 'buffer/',
