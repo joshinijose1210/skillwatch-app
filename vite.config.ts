@@ -33,7 +33,20 @@ export default defineConfig(({ mode }) => {
     resolve: {
       alias: {
         buffer: 'buffer/',
-        '@': '/src',
+        '@': path.resolve(__dirname, 'src'),
+        '@common': path.resolve(__dirname, 'src/common'),
+        '@components': path.resolve(__dirname, 'src/components'),
+        '@mocks': path.resolve(__dirname, 'src/mocks'),
+        '@theme': path.resolve(__dirname, 'src/theme'),
+        '@utils': path.resolve(__dirname, 'src/utils'),
+        '@test-utils': path.resolve(__dirname, 'src/utils/test-utils'),
+        '@styled': path.resolve(__dirname, 'src/utils/styled'),
+        '@slice': path.resolve(__dirname, 'src/slice'),
+        '@routes': path.resolve(__dirname, 'src/routes'),
+        '@pages': path.resolve(__dirname, 'src/pages'),
+        '@services': path.resolve(__dirname, 'src/services'),
+        '@constants': path.resolve(__dirname, 'src/constants'),
+        '@testData': path.resolve(__dirname, 'src/testData'),
       }
     }
   };
